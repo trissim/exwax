@@ -29,6 +29,7 @@
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
+#include <libgen.h>
 
 #include <SDL.h>
 #include <SDL_image.h>
@@ -1636,7 +1637,6 @@ char* get_relative_path(char* reference_path, char* absolute_path) {
 
 /*
     handler for adding the selected track to the "marked" (not currently selected!) crate via Ctrl+Enter 
-
 */
 static int handle_trackAdd(struct selector *sel){
     if (endsWith(crate2Edit->path, ".xwaxpls") == 1 || endsWith(crate2Edit->path, ".m3u") == 1)
@@ -1644,9 +1644,8 @@ static int handle_trackAdd(struct selector *sel){
         struct record* toAdd = selector_current(sel);
         printf("Adding %s - %s to %s\n", toAdd->artist, toAdd->title, crate2Edit->path);
 	char* relpath;
-     	relpath = get_relative_path(toAdd->pathname,dirname(crate2Edit->path));
-    
-     
+	char *pl_basepath = strdup(crate2Edit->path);
+     	relpath = get_relative_path(dirname(pl_basepath),toAdd->pathname);
      
         FILE *crateFile = NULL;
         crateFile = fopen(crate2Edit->path, "a");
@@ -1656,12 +1655,13 @@ static int handle_trackAdd(struct selector *sel){
         }
         if (endsWith(crate2Edit->path, ".xwaxpls"))
         {
-            fprintf(crateFile, "%s\t%s\t%s\t%s\t%s\t%f\n", toAdd->pathname, toAdd->artist, toAdd->title, toAdd->album, toAdd->genre, toAdd->bpm);
+            fprintf(crateFile, "%s\t%s\t%s\t%s\t%s\t%f\n", relpath, toAdd->artist, toAdd->title, toAdd->album, toAdd->genre, toAdd->bpm);
         }else if (endsWith(crate2Edit->path, ".m3u")){
-            fprintf(crateFile, "%s\n", toAdd->pathname);    
+            fprintf(crateFile, "%s\n", relpath);    
         }
         fclose(crateFile);
         library_rescan(sel->library, crate2Edit);
+	free(pl_basepath);
         return 1;
     }
     return 0;
