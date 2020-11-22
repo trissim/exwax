@@ -56,6 +56,10 @@ struct library {
     size_t crates;
 };
 
+int add_crate(struct library *lib, struct crate *c);
+int crate_rescan(struct crate *c, struct library *l);
+int crate_init(struct crate *c, const char *name);
+int crate_init_scan(struct library *l, struct crate *c, const char *name, const char *scan, const char *path);
 int library_global_init(void);
 void library_global_clear(void);
 
@@ -64,6 +68,7 @@ void listing_clear(struct listing *l);
 struct record* listing_add(struct listing *l, struct record *r);
 
 int library_init(struct library *li);
+int library_import(struct library *li, const char *scan, const char *path);
 void library_clear(struct library *li);
 
 struct record* get_record(char *line);

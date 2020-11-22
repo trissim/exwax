@@ -89,7 +89,7 @@ void listing_clear(struct listing *l)
  * Return: 0 on success or -1 on memory allocation failure
  */
 
-static int crate_init(struct crate *c, const char *name)
+int crate_init(struct crate *c, const char *name)
 {
     c->name = strdup(name);
     if (c->name == NULL) {
@@ -176,8 +176,7 @@ static void hook_up_excrate(struct crate *c, struct excrate *e)
  * Return: 0 on success or -1 on error
  */
 
-static int crate_init_scan(struct library *l, struct crate *c, const char *name,
-                           const char *scan, const char *path)
+int crate_init_scan(struct library *l, struct crate *c, const char *name, const char *scan, const char *path)
 {
     struct excrate *e;
 
@@ -203,7 +202,7 @@ static int crate_init_scan(struct library *l, struct crate *c, const char *name,
  * Return: 0 on success, -1 on error
  */
 
-static int crate_rescan(struct crate *c, struct library *l)
+int crate_rescan(struct crate *c, struct library *l)
 {
     struct excrate *e;
 
@@ -335,7 +334,7 @@ static void sort_crates(struct library *lib)
  * Return: 0 on success or -1 on memory allocation failure
  */
 
-static int add_crate(struct library *lib, struct crate *c)
+int add_crate(struct library *lib, struct crate *c)
 {
     struct crate **cn;
 

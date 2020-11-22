@@ -30,6 +30,8 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <libgen.h>
+#include <stdio.h>
+#include <time.h>
 
 #include <SDL.h>
 #include <SDL_image.h>
@@ -43,6 +45,7 @@
 #include "status.h"
 #include "timecoder.h"
 #include "xwax.h"
+#include "library.h"
 
 /* Screen refresh time in milliseconds */
 
@@ -1635,6 +1638,43 @@ char* get_relative_path(char* reference_path, char* absolute_path) {
     return relative_path;
 }
 
+static int handle_playlist_add(struct selector *sel){
+    //create_playlist
+    time_t t = time(NULL);
+    struct tm tm = *localtime(&t);
+    char pl_name[FILENAME_MAX];
+    char timestr[FILENAME_MAX];
+    sprintf(pl_name,"%d-%02d-%02d---%02d:%02d:%02d.m3u", tm.tm_year + 1900, tm.tm_mon + 1, tm.tm_mday, tm.tm_hour, tm.tm_min, tm.tm_sec);
+    char *pl_path = dirname(strdup(crate2Edit->path));
+    strcat(pl_path,"/");
+    strcat(pl_path,pl_name);
+    FILE *fp = fopen(pl_path ,"a");
+    fclose(fp);
+    printf(pl_path);
+
+    //add playlist to to library
+    //struct crate *new_crate;
+    //new_crate = malloc(sizeof *new_crate);
+    //crate_init(new_crate,name);
+    //char crate_scan[sizeof(crate2Edit->scan)]; 
+    //strcpy(crate_scan,crate2Edit->scan);
+    //new_crate->scan = strdup(crate_scan);
+    //new_crate->path = strdup(pl_path);
+    //printf(new_crate->path);
+    //add_crate(sel->library, new_crate);
+    //int i;
+    //printf("bruh");
+    //i = library_import(sel->library, strdup(crate2Edit->scan), strdup(pl_path));
+    //printf(i);
+    //printf("bruh");
+    //library_update = true;
+    //crate_init_scan(sel->library, new_crate, strdup(pl_name),
+    //                       strdup(crate2Edit->scan), strdup(pl_path));
+    //crate_rescan(new_crate, sel->library);
+    //free(pl_path);
+    return 1;
+}
+
 /*
     handler for adding the selected track to the "marked" (not currently selected!) crate via Ctrl+Enter 
 */
@@ -1766,6 +1806,10 @@ static bool handle_key(SDLKey key, SDLMod mod)
             }else{
                 crate2Edit = NULL;
             }
+	}else if(mod & KMOD_SHIFT){
+            if (crate2Edit != NULL){
+		handle_playlist_add(sel);
+	    }
         }else{
             // ADD CURRENT TRACK TO SELECTED LIST 
             if (crate2Edit != NULL){
