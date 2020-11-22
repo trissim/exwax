@@ -1587,6 +1587,54 @@ static void draw_library(SDL_Surface *surface, const struct rect *rect,
 }
 
 /*
+    takes absolute path of file and sets it relative to the playlist location
+*/
+
+#if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
+    const char* path_separator = "\\";
+#else
+    const char* path_separator = "/";
+#endif  
+
+#define FILENAME_MAX 1024
+
+
+char* get_relative_path(char* reference_path, char* absolute_path) {
+    static char relative_path[FILENAME_MAX];
+    // init result string
+    relative_path[0] = '\0';    
+    // check first char (under windows, if differs, we return absolute path)
+    if(absolute_path[0] != reference_path[0]) {
+        return absolute_path;
+    }    
+    // make copies to prevent altering original strings
+    char* path_a = strdup(absolute_path);
+    char* path_r = strdup(reference_path);
+
+    int inc;
+    int size_a = strlen(path_a)+1;
+    int size_r = strlen(path_r)+1;
+
+    for(inc = 0; inc < size_a && inc < size_r; inc += strlen(path_a+inc)+1) {
+        char* token_a = strchr(path_a+inc, path_separator[0]);
+        char* token_r = strchr(path_r+inc, path_separator[0]);        
+        if(token_a) token_a[0] = '\0';
+        if(token_r) token_r[0] = '\0';        
+        if(strcmp(path_a+inc, path_r+inc) != 0) break;
+    }
+
+    for(int inc_r = inc; inc_r < size_r; inc_r += strlen(path_r+inc_r)+1) {
+        strcat(relative_path, "..");
+        strcat(relative_path, path_separator);        
+        if( !strchr(reference_path+inc_r, path_separator[0]) ) break;
+    }
+
+    if(inc < size_a) strcat(relative_path, absolute_path+inc);
+
+    return relative_path;
+}
+
+/*
     handler for adding the selected track to the "marked" (not currently selected!) crate via Ctrl+Enter 
 
 */
@@ -1595,6 +1643,11 @@ static int handle_trackAdd(struct selector *sel){
     {
         struct record* toAdd = selector_current(sel);
         printf("Adding %s - %s to %s\n", toAdd->artist, toAdd->title, crate2Edit->path);
+	char* relpath;
+     	relpath = get_relative_path(toAdd->pathname,dirname(crate2Edit->path));
+    
+     
+     
         FILE *crateFile = NULL;
         crateFile = fopen(crate2Edit->path, "a");
         if (crateFile == NULL)    {

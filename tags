@@ -1,0 +1,1088 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+.version	Makefile	/^.version:	FORCE$/;"	t
+ALBUMART_HEIGHT	interface.c	/^#define ALBUMART_HEIGHT /;"	d	file:
+ALBUMART_WIDTH	interface.c	/^#define ALBUMART_WIDTH /;"	d	file:
+ALPHA	pitch.h	/^#define ALPHA /;"	d
+ALSA DEVICE OPTIONS	xwax.1	/^.SH "ALSA DEVICE OPTIONS"$/;"	s	title:XWAX
+ALSA_H	alsa.h	/^#define ALSA_H$/;"	d
+ALSA_LIBS	Makefile	/^ALSA_LIBS ?= -lasound$/;"	m
+ARRAY_SIZE	controller.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	external.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	index.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	library.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	realtime.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	rig.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	tests/midi.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	timecoder.c	/^#define ARRAY_SIZE(/;"	d	file:
+ARRAY_SIZE	xwax.c	/^#define ARRAY_SIZE(/;"	d	file:
+AUTHOR	xwax.1	/^.SH AUTHOR$/;"	s	title:XWAX
+BANNER	mktimecode.c	/^#define BANNER /;"	d	file:
+BETA	pitch.h	/^#define BETA /;"	d
+BIG_FONT	interface.c	/^#define BIG_FONT /;"	d	file:
+BIG_FONT_SIZE	interface.c	/^#define BIG_FONT_SIZE /;"	d	file:
+BIG_FONT_SPACE	interface.c	/^#define BIG_FONT_SPACE /;"	d	file:
+BINDIR	Makefile	/^BINDIR ?= $(PREFIX)\/bin$/;"	m
+BITS	mktimecode.c	/^#define BITS /;"	d	file:
+BLOCK	index.c	/^#define BLOCK /;"	d	file:
+BORDER	interface.c	/^#define BORDER /;"	d	file:
+BPM_WIDTH	interface.c	/^#define BPM_WIDTH /;"	d	file:
+CFLAGS	Makefile	/^CFLAGS ?= -O3$/;"	m
+CLOCKS_WIDTH	interface.c	/^#define CLOCKS_WIDTH /;"	d	file:
+CLOCK_FONT	interface.c	/^#define CLOCK_FONT /;"	d	file:
+CLOCK_FONT_SIZE	interface.c	/^#define CLOCK_FONT_SIZE /;"	d	file:
+CONTROLLER_H	controller.h	/^#define CONTROLLER_H$/;"	d
+CRATE_ALL	library.c	/^#define CRATE_ALL /;"	d	file:
+CUE	dicer.c	/^#define CUE /;"	d	file:
+CUES_H	cues.h	/^#define CUES_H$/;"	d
+CUE_UNSET	cues.h	/^#define CUE_UNSET /;"	d
+CURSOR_WIDTH	interface.c	/^#define CURSOR_WIDTH /;"	d	file:
+DEBUG_H	debug.h	/^#define DEBUG_H$/;"	d
+DECI_FONT	interface.c	/^#define DECI_FONT /;"	d	file:
+DECI_FONT_SIZE	interface.c	/^#define DECI_FONT_SIZE /;"	d	file:
+DECK_H	deck.h	/^#define DECK_H$/;"	d
+DEFAULT_ALSA_BUFFER	xwax.c	/^#define DEFAULT_ALSA_BUFFER /;"	d	file:
+DEFAULT_HEIGHT	interface.c	/^#define DEFAULT_HEIGHT /;"	d	file:
+DEFAULT_IMPORTER	xwax.c	/^#define DEFAULT_IMPORTER /;"	d	file:
+DEFAULT_METER_SCALE	interface.c	/^#define DEFAULT_METER_SCALE /;"	d	file:
+DEFAULT_OSS_BUFFERS	xwax.c	/^#define DEFAULT_OSS_BUFFERS /;"	d	file:
+DEFAULT_OSS_FRAGMENT	xwax.c	/^#define DEFAULT_OSS_FRAGMENT /;"	d	file:
+DEFAULT_PRIORITY	xwax.c	/^#define DEFAULT_PRIORITY /;"	d	file:
+DEFAULT_RATE	xwax.c	/^#define DEFAULT_RATE /;"	d	file:
+DEFAULT_SCALE	interface.c	/^#define DEFAULT_SCALE /;"	d	file:
+DEFAULT_SCANNER	xwax.c	/^#define DEFAULT_SCANNER /;"	d	file:
+DEFAULT_TIMECODE	xwax.c	/^#define DEFAULT_TIMECODE /;"	d	file:
+DEFAULT_WIDTH	interface.c	/^#define DEFAULT_WIDTH /;"	d	file:
+DEPS	Makefile	/^DEPS = $(OBJS:.o=.d) $(TEST_OBJS:.o=.d) mktimecode.d$/;"	m
+DESCRIPTION	xwax.1	/^.SH DESCRIPTION$/;"	s	title:XWAX
+DETAIL_FONT	interface.c	/^#define DETAIL_FONT /;"	d	file:
+DETAIL_FONT_SIZE	interface.c	/^#define DETAIL_FONT_SIZE /;"	d	file:
+DETAIL_FONT_SPACE	interface.c	/^#define DETAIL_FONT_SPACE /;"	d	file:
+DEVICE_CHANNELS	device.h	/^#define DEVICE_CHANNELS /;"	d
+DEVICE_CPPFLAGS	Makefile	/^DEVICE_CPPFLAGS =$/;"	m
+DEVICE_H	device.h	/^#define DEVICE_H$/;"	d
+DEVICE_LIBS	Makefile	/^DEVICE_LIBS =$/;"	m
+DICER_H	dicer.h	/^#define DICER_H$/;"	d
+DOCDIR	Makefile	/^DOCDIR ?= $(PREFIX)\/share\/doc$/;"	m
+DUMMY_H	dummy.h	/^#define DUMMY_H$/;"	d
+EM_FONT	interface.c	/^#define EM_FONT /;"	d	file:
+EOF	configure	/^cat <<EOF$/;"	h
+EVENT_INIT	observer.h	/^#define EVENT_INIT(/;"	d
+EVENT_QUIT	interface.c	/^#define EVENT_QUIT /;"	d	file:
+EVENT_QUIT	rig.c	/^#define EVENT_QUIT /;"	d	file:
+EVENT_SELECTOR	interface.c	/^#define EVENT_SELECTOR /;"	d	file:
+EVENT_STATUS	interface.c	/^#define EVENT_STATUS /;"	d	file:
+EVENT_TICKER	interface.c	/^#define EVENT_TICKER /;"	d	file:
+EVENT_WAKE	rig.c	/^#define EVENT_WAKE /;"	d	file:
+EXAMPLES	xwax.1	/^.SH EXAMPLES$/;"	s	title:XWAX
+EXCRATE_H	excrate.h	/^#define EXCRATE_H$/;"	d
+EXECDIR	Makefile	/^EXECDIR ?= $(PREFIX)\/libexec$/;"	m
+EXTERNAL_H	external.h	/^#define EXTERNAL_H$/;"	d
+FONT	interface.c	/^#define FONT /;"	d	file:
+FONT_SIZE	interface.c	/^#define FONT_SIZE /;"	d	file:
+FONT_SPACE	interface.c	/^#define FONT_SPACE /;"	d	file:
+FRAME	oss.c	/^#define FRAME /;"	d	file:
+FUNC_LOAD	interface.c	/^#define FUNC_LOAD /;"	d	file:
+FUNC_RECUE	interface.c	/^#define FUNC_RECUE /;"	d	file:
+FUNC_SAVECUE	interface.c	/^#define FUNC_SAVECUE /;"	d	file:
+FUNC_TIMECODE	interface.c	/^#define FUNC_TIMECODE /;"	d	file:
+HALF_SPACER	interface.c	/^#define HALF_SPACER /;"	d	file:
+HARDWARE	xwax.1	/^.SH HARDWARE CONTROLLER OPTIONS$/;"	s	title:XWAX
+HASH	lut.c	/^#define HASH(/;"	d	file:
+HASH_BITS	lut.c	/^#define HASH_BITS /;"	d	file:
+HOMEPAGE	xwax.1	/^.SH HOMEPAGE$/;"	s	title:XWAX
+INDEX_H	index.h	/^#define INDEX_H$/;"	d
+INSTALL	Makefile	/^INSTALL ?= install$/;"	m
+INTERFACE_H	interface.h	/^#define INTERFACE_H$/;"	d
+INTERVAL	tests/timecoder.c	/^#define INTERVAL /;"	d	file:
+JACK DEVICE OPTIONS	xwax.1	/^.SH "JACK DEVICE OPTIONS"$/;"	s	title:XWAX
+JACK_H	jack.h	/^#define JACK_H$/;"	d
+JACK_LIBS	Makefile	/^JACK_LIBS ?= -ljack$/;"	m
+KEYBOARD	xwax.1	/^.SH KEYBOARD CONTROLS$/;"	s	title:XWAX
+LAYOUT_H	layout.h	/^#define LAYOUT_H$/;"	d
+LAYOUT_PIXELS	layout.h	/^#define LAYOUT_PIXELS /;"	d
+LAYOUT_SECONDARY	layout.h	/^#define LAYOUT_SECONDARY /;"	d
+LAYOUT_VERTICAL	layout.h	/^#define LAYOUT_VERTICAL /;"	d
+LDFLAGS	Makefile	/^LDFLAGS ?= -O3$/;"	m
+LIBRARY_H	library.h	/^#define LIBRARY_H$/;"	d
+LIBRARY_MIN_HEIGHT	interface.c	/^#define LIBRARY_MIN_HEIGHT /;"	d	file:
+LIBRARY_MIN_WIDTH	interface.c	/^#define LIBRARY_MIN_WIDTH /;"	d	file:
+LISTBOX_H	listbox.h	/^#define LISTBOX_H$/;"	d
+LIST_H	list.h	/^#define LIST_H$/;"	d
+LIST_INIT	list.h	/^#define LIST_INIT(/;"	d
+LOCK	interface.c	/^#define LOCK(/;"	d	file:
+LOOP	dicer.c	/^#define LOOP /;"	d	file:
+LUT_H	lut.h	/^#define LUT_H$/;"	d
+MANDIR	Makefile	/^MANDIR ?= $(PREFIX)\/share\/man$/;"	m
+MAX	mktimecode.c	/^#define MAX(/;"	d	file:
+MAX_BLOCK	jack.c	/^#define MAX_BLOCK /;"	d	file:
+MAX_CUES	cues.h	/^#define MAX_CUES /;"	d
+MAX_METER_SCALE	interface.c	/^#define MAX_METER_SCALE /;"	d	file:
+MAX_WORDS	index.c	/^#define MAX_WORDS /;"	d	file:
+METER_WARNING_TIME	interface.c	/^#define METER_WARNING_TIME /;"	d	file:
+MIDI_H	midi.h	/^#define MIDI_H$/;"	d
+MIN	interface.c	/^#define MIN(/;"	d	file:
+MONITOR_DECAY_EVERY	timecoder.c	/^#define MONITOR_DECAY_EVERY /;"	d	file:
+MUTEX_H	mutex.h	/^#define MUTEX_H$/;"	d
+NAME	xwax.1	/^.SH NAME$/;"	s	title:XWAX
+NBUTTONS	dicer.c	/^#define NBUTTONS /;"	d	file:
+NOTICE	xwax.h	/^#define NOTICE /;"	d
+NOVATION	xwax.1	/^.SH NOVATION DICER CONTROLS$/;"	s	title:XWAX
+NO_PUNCH	deck.h	/^#define NO_PUNCH /;"	d
+NO_SLOT	lut.c	/^#define NO_SLOT /;"	d	file:
+OBJS	Makefile	/^OBJS = controller.o \\$/;"	m
+OBSERVE_H	observer.h	/^#define OBSERVE_H$/;"	d
+ON	dicer.c	/^#define ON /;"	d	file:
+OPTIONS	xwax.1	/^.SH OPTIONS$/;"	s	title:XWAX
+OSS DEVICE OPTIONS	xwax.1	/^.SH "OSS DEVICE OPTIONS"$/;"	s	title:XWAX
+OSS_H	oss.h	/^#define OSS_H$/;"	d
+OVERVIEW_HEIGHT	interface.c	/^#define OVERVIEW_HEIGHT /;"	d	file:
+PITCH_H	pitch.h	/^#define PITCH_H$/;"	d
+PLAYER_CHANNELS	player.h	/^#define PLAYER_CHANNELS /;"	d
+PLAYER_H	player.h	/^#define PLAYER_H$/;"	d
+PLAYER_HEIGHT	interface.c	/^#define PLAYER_HEIGHT /;"	d	file:
+PREFIX	Makefile	/^PREFIX ?= $(HOME)$/;"	m
+PRESSED	dicer.c	/^#define PRESSED /;"	d	file:
+QuickBlit	interface.c	/^static void QuickBlit(SDL_Surface *srcSurface, SDL_Surface *dstSurface,$/;"	f	typeref:typename:void	file:
+RATE	mktimecode.c	/^#define RATE /;"	d	file:
+RATE	tests/timecoder.c	/^#define RATE /;"	d	file:
+RATE	track.c	/^#define RATE /;"	d	file:
+REALTIME_H	realtime.h	/^#define REALTIME_H$/;"	d
+RECORD_LOADED	index.h	/^#define RECORD_LOADED /;"	d
+RECORD_NOT_PLAYED	index.h	/^#define RECORD_NOT_PLAYED /;"	d
+RECORD_PLAYED	index.h	/^#define RECORD_PLAYED /;"	d
+REFRESH	interface.c	/^#define REFRESH /;"	d	file:
+REF_PEAKS_AVG	timecoder.c	/^#define REF_PEAKS_AVG /;"	d	file:
+RESOLUTION	mktimecode.c	/^#define RESOLUTION /;"	d	file:
+RESULTS_ARTIST_WIDTH	interface.c	/^#define RESULTS_ARTIST_WIDTH /;"	d	file:
+RIG_H	rig.h	/^#define RIG_H$/;"	d
+ROLL	dicer.c	/^#define ROLL /;"	d	file:
+SAMPLE	track.c	/^#define SAMPLE /;"	d	file:
+SCALE	jack.c	/^#define SCALE /;"	d	file:
+SCOPE_SIZE	interface.c	/^#define SCOPE_SIZE /;"	d	file:
+SCROLLBAR_SIZE	interface.c	/^#define SCROLLBAR_SIZE /;"	d	file:
+SDL_CFLAGS	Makefile	/^SDL_CFLAGS ?= `sdl-config --cflags`$/;"	m
+SDL_LIBS	Makefile	/^SDL_LIBS ?= `sdl-config --libs` -lSDL_ttf -lSDL_image$/;"	m
+SEARCH_HEIGHT	interface.c	/^#define SEARCH_HEIGHT /;"	d	file:
+SEED	mktimecode.c	/^#define SEED /;"	d	file:
+SELECTOR_H	selector.h	/^#define SELECTOR_H$/;"	d
+SEPARATOR	index.c	/^#define SEPARATOR /;"	d	file:
+SKIP_THRESHOLD	player.c	/^#define SKIP_THRESHOLD /;"	d	file:
+SORT_ALBUM	index.h	/^#define SORT_ALBUM /;"	d
+SORT_ARTIST	index.h	/^#define SORT_ARTIST /;"	d
+SORT_BPM	index.h	/^#define SORT_BPM /;"	d
+SORT_END	index.h	/^#define SORT_END /;"	d
+SORT_GENRE	index.h	/^#define SORT_GENRE /;"	d
+SORT_PLAYLIST	index.h	/^#define SORT_PLAYLIST /;"	d
+SORT_WIDTH	interface.c	/^#define SORT_WIDTH /;"	d	file:
+SPACER	interface.c	/^#define SPACER /;"	d	file:
+SPINNER_SIZE	interface.c	/^#define SPINNER_SIZE /;"	d	file:
+SPIN_H	spin.h	/^#define SPIN_H$/;"	d
+SQ	interface.c	/^#define SQ(/;"	d	file:
+SQ	player.c	/^#define SQ(/;"	d	file:
+SQ	timecoder.c	/^#define SQ(/;"	d	file:
+STATUS_ALERT	status.h	/^#define STATUS_ALERT /;"	d
+STATUS_H	status.h	/^#define STATUS_H$/;"	d
+STATUS_HEIGHT	interface.c	/^#define STATUS_HEIGHT /;"	d	file:
+STATUS_INFO	status.h	/^#define STATUS_INFO /;"	d
+STATUS_VERBOSE	status.h	/^#define STATUS_VERBOSE /;"	d
+STATUS_WARN	status.h	/^#define STATUS_WARN /;"	d
+STEREO	tests/timecoder.c	/^#define STEREO /;"	d	file:
+STR	track.c	/^#define STR(/;"	d	file:
+SWITCH_PHASE	timecoder.c	/^#define SWITCH_PHASE /;"	d	file:
+SWITCH_POLARITY	timecoder.c	/^#define SWITCH_POLARITY /;"	d	file:
+SWITCH_PRIMARY	timecoder.c	/^#define SWITCH_PRIMARY /;"	d	file:
+SYNCED	dicer.c	/^#define SYNCED /;"	d	file:
+SYNC_PITCH	player.c	/^#define SYNC_PITCH /;"	d	file:
+SYNC_RC	player.c	/^#define SYNC_RC /;"	d	file:
+SYNC_TIME	player.c	/^#define SYNC_TIME /;"	d	file:
+SYNOPSIS	xwax.1	/^.SH SYNOPSIS$/;"	s	title:XWAX
+TAGS	Makefile	/^TAGS:		$(OBJS:.o=.c)$/;"	t
+TAPS	mktimecode.c	/^#define TAPS /;"	d	file:
+TARGET_UNKNOWN	player.c	/^#define TARGET_UNKNOWN /;"	d	file:
+TESTS	Makefile	/^TESTS = tests\/cues \\$/;"	m
+TEST_OBJS	Makefile	/^TEST_OBJS = $(addsuffix .o,$(TESTS))$/;"	m
+THREAD_H	thread.h	/^#define THREAD_H$/;"	d
+TIMECODER_CHANNELS	timecoder.h	/^#define TIMECODER_CHANNELS /;"	d
+TIMECODER_H	timecoder.h	/^#define TIMECODER_H$/;"	d
+TOKEN_SPACE	interface.c	/^#define TOKEN_SPACE /;"	d	file:
+TRACK_BLOCK_PCM_BYTES	track.c	/^#define TRACK_BLOCK_PCM_BYTES /;"	d	file:
+TRACK_BLOCK_SAMPLES	track.h	/^#define TRACK_BLOCK_SAMPLES /;"	d
+TRACK_CHANNELS	track.h	/^#define TRACK_CHANNELS /;"	d
+TRACK_H	track.h	/^#define TRACK_H$/;"	d
+TRACK_MAX_BLOCKS	track.h	/^#define TRACK_MAX_BLOCKS /;"	d
+TRACK_OVERVIEW_RES	track.h	/^#define TRACK_OVERVIEW_RES /;"	d
+TRACK_PPM_RES	track.h	/^#define TRACK_PPM_RES /;"	d
+UNLOCK	interface.c	/^#define UNLOCK(/;"	d	file:
+UPDATE	interface.c	/^#define UPDATE(/;"	d	file:
+VALID_BITS	timecoder.c	/^#define VALID_BITS /;"	d	file:
+VERSION	Makefile	/^VERSION = $(shell .\/mkversion)$/;"	m
+VOLUME	player.c	/^#define VOLUME /;"	d	file:
+XWAX	xwax.1	/^.TH XWAX "1"$/;"	t
+XWAX_H	xwax.h	/^#define XWAX_H$/;"	d
+ZERO_RC	timecoder.c	/^#define ZERO_RC /;"	d	file:
+ZERO_THRESHOLD	timecoder.c	/^#define ZERO_THRESHOLD /;"	d	file:
+_DEFAULT_SOURCE	external.c	/^#define _DEFAULT_SOURCE /;"	d	file:
+_GNU_SOURCE	index.c	/^#define _GNU_SOURCE /;"	d	file:
+_GNU_SOURCE	library.c	/^#define _GNU_SOURCE /;"	d	file:
+_GNU_SOURCE	mktimecode.c	/^#define _GNU_SOURCE /;"	d	file:
+_STR	track.c	/^#define _STR(/;"	d	file:
+__list_add	list.h	/^static inline void __list_add(struct list *new, struct list *prev,$/;"	f	typeref:typename:void
+abb	crate_scanner_vanilla	/^abb = '%(befehl)s: ABBRUCH '%locals()$/;"	v
+abb	exwax-pyalbumart	/^abb = '%(befehl)s: ABBRUCH '%locals()$/;"	v
+absolute	layout.h	/^static inline struct layout absolute(unsigned char flags, unsigned int distance,$/;"	f	typeref:struct:layout
+access_pcm	track.c	/^static void* access_pcm(struct track *tr, size_t *len)$/;"	f	typeref:typename:void *	file:
+actions	dicer.c	/^static const char *actions[] = {$/;"	v	typeref:typename:const char * []	file:
+activity	library.h	/^    struct event activity, \/* at the crate level, not the listing *\/$/;"	m	struct:crate	typeref:struct:event
+add_crate	library.c	/^static int add_crate(struct library *lib, struct crate *c)$/;"	f	typeref:typename:int	file:
+add_deck	controller.h	/^    int (*add_deck)(struct controller *c, struct deck *deck);$/;"	m	struct:controller_ops	typeref:typename:int (*)(struct controller * c,struct deck * deck)
+add_deck	dicer.c	/^static int add_deck(struct controller *c, struct deck *k)$/;"	f	typeref:typename:int	file:
+addition	library.h	/^        refresh, addition;$/;"	m	struct:crate	typeref:struct:event
+addition	library.h	/^    struct event addition;$/;"	m	struct:listing	typeref:struct:event
+album	index.h	/^    char *pathname, *artist, *title, *album, *genre; \/*Kenny: Added album and genre *\/$/;"	m	struct:record	typeref:typename:char ****
+album_col	interface.c	/^    album_col = {16, 16, 128, 255},$/;"	v	typeref:typename:SDL_Color	file:
+alert_col	interface.c	/^    alert_col = {192, 64, 0, 255},$/;"	v	typeref:typename:SDL_Color	file:
+all	Makefile	/^all:		xwax mktimecode tests$/;"	t
+all	library.h	/^    struct crate all, **crate;$/;"	m	struct:library	typeref:struct:crate
+alsa	alsa.c	/^struct alsa {$/;"	s	file:
+alsa_clear_config_cache	alsa.c	/^void alsa_clear_config_cache(void)$/;"	f	typeref:typename:void
+alsa_error	alsa.c	/^static void alsa_error(const char *msg, int r)$/;"	f	typeref:typename:void	file:
+alsa_error	midi.c	/^static void alsa_error(const char *msg, int r)$/;"	f	typeref:typename:void	file:
+alsa_init	alsa.c	/^int alsa_init(struct device *dv, const char *device_name,$/;"	f	typeref:typename:int
+alsa_ops	alsa.c	/^static struct device_ops alsa_ops = {$/;"	v	typeref:struct:device_ops	file:
+alsa_pcm	alsa.c	/^struct alsa_pcm {$/;"	s	file:
+args	crate_scan	/^args = sys.argv[1:]$/;"	v
+args	crate_scanner_vanilla	/^opts, args = optionparse.parse( usage )$/;"	v
+args	exwax-pyalbumart	/^opts, args = optionparse.parse( usage )$/;"	v
+artist	index.h	/^    char *pathname, *artist, *title, *album, *genre; \/*Kenny: Added album and genre *\/$/;"	m	struct:record	typeref:typename:char **
+artist_col	interface.c	/^    artist_col = {16, 64, 0, 255},$/;"	v	typeref:typename:SDL_Color	file:
+ascii	library.c	/^static iconv_t ascii = (iconv_t)-1;$/;"	v	typeref:typename:iconv_t	file:
+audio	crate_scan	/^                    audio = EasyID3()$/;"	v
+audio	crate_scan	/^                    audio = EasyID3(currentFile)$/;"	v
+audio	crate_scan	/^                    audio = FLAC()$/;"	v
+aus	crate_scanner_vanilla	/^            aus, err = kommando2( command )$/;"	v
+aus	crate_scanner_vanilla	/^            aus, err = kommando2( command , ok_liste = [0,1,127])$/;"	v
+aus	crate_scanner_vanilla	/^        aus, err = kommando2( ['find', arg , '-print'])$/;"	v
+avail	lut.h	/^        avail; \/* next available slot *\/$/;"	m	struct:lut	typeref:typename:slot_no_t *
+background_col	interface.c	/^static SDL_Color background_col = {0, 0, 0, 255},$/;"	v	typeref:typename:SDL_Color	file:
+banner	xwax.c	/^char *banner = "xwax " VERSION \\$/;"	v	typeref:typename:char *
+befehl	crate_scanner_vanilla	/^befehl = sys.argv[0]$/;"	v
+befehl	exwax-pyalbumart	/^befehl = sys.argv[0]$/;"	v
+big_font	interface.c	/^    *font, *em_font, *big_font;$/;"	v	typeref:typename:TTF_Font ******	file:
+bin_search	index.c	/^static size_t bin_search(struct record **base, size_t n,$/;"	f	typeref:typename:size_t	file:
+bits	timecoder.h	/^    int bits, \/* number of bits in string *\/$/;"	m	struct:timecode_def	typeref:typename:int
+bits_t	mktimecode.c	/^typedef unsigned int bits_t;$/;"	t	typeref:typename:unsigned int	file:
+bits_t	timecoder.h	/^typedef unsigned int bits_t;$/;"	t	typeref:typename:unsigned int
+bitstream	timecoder.h	/^    bits_t bitstream, \/* actual bits from the record *\/$/;"	m	struct:timecoder	typeref:typename:bits_t
+block	track.h	/^    struct track_block *block[TRACK_MAX_BLOCKS];$/;"	m	struct:track	typeref:struct:track_block * []
+blocks	track.h	/^        blocks; \/* number of blocks allocated *\/$/;"	m	struct:track	typeref:typename:unsigned int
+bpm	crate_scanner_vanilla	/^            bpm = aus.splitlines()[0]$/;"	v
+bpm	index.h	/^    double bpm; \/* or 0.0 if not known *\/$/;"	m	struct:record	typeref:typename:double
+bpm_col	interface.c	/^    bpm_col = {96, 16, 0, 255},$/;"	v	typeref:typename:SDL_Color	file:
+bpmless	crate_scan	/^bpmless = []$/;"	v
+bpmless	crate_scanner_vanilla	/^bpmless = []$/;"	v
+buf	alsa.c	/^    signed short *buf;$/;"	m	struct:alsa_pcm	typeref:typename:signed short *	file:
+buf	external.h	/^    char buf[4096];$/;"	m	struct:rb	typeref:typename:char[4096]
+buf	index.h	/^    char buf[512];$/;"	m	struct:match	typeref:typename:char[512]
+build_lookup	timecoder.c	/^static int build_lookup(struct timecode_def *def)$/;"	f	typeref:typename:int	file:
+build_pcm	player.c	/^static double build_pcm(signed short *pcm, unsigned samples, double sample_dt,$/;"	f	typeref:typename:double	file:
+build_silence	player.c	/^static double build_silence(signed short *pcm, unsigned samples,$/;"	f	typeref:typename:double	file:
+by_album	library.h	/^    struct index by_artist, by_album, by_bpm, by_genre, by_order;$/;"	m	struct:listing	typeref:struct:index
+by_artist	library.h	/^    struct index by_artist, by_album, by_bpm, by_genre, by_order;$/;"	m	struct:listing	typeref:struct:index
+by_bpm	library.h	/^    struct index by_artist, by_album, by_bpm, by_genre, by_order;$/;"	m	struct:listing	typeref:struct:index
+by_genre	library.h	/^    struct index by_artist, by_album, by_bpm, by_genre, by_order;$/;"	m	struct:listing	typeref:struct:index
+by_order	library.h	/^    struct index by_artist, by_album, by_bpm, by_genre, by_order;$/;"	m	struct:listing	typeref:struct:index
+bytes	track.h	/^    size_t bytes; \/* loaded in *\/$/;"	m	struct:track	typeref:typename:size_t
+calculate_angle_lut	interface.c	/^static void calculate_angle_lut(unsigned short *lut, int size)$/;"	f	typeref:typename:void	file:
+calibrate_to_timecode_position	player.c	/^static void calibrate_to_timecode_position(struct player *pl)$/;"	f	typeref:typename:void	file:
+callback	tests/observer.c	/^void callback(struct observer *t, void *x)$/;"	f	typeref:typename:void
+callback	tests/status.c	/^void callback(struct observer *o, void *x)$/;"	f	typeref:typename:void
+capture	alsa.c	/^    struct alsa_pcm capture, playback;$/;"	m	struct:alsa	typeref:struct:alsa_pcm	file:
+capture	alsa.c	/^static int capture(struct device *dv)$/;"	f	typeref:typename:int	file:
+changed	selector.h	/^    struct event changed;$/;"	m	struct:selector	typeref:struct:event
+chk	alsa.c	/^static bool chk(const char *s, int r)$/;"	f	typeref:typename:bool	file:
+clean	Makefile	/^clean:$/;"	t
+clear	alsa.c	/^static void clear(struct device *dv)$/;"	f	typeref:typename:void	file:
+clear	controller.h	/^    void (*clear)(struct controller *c);$/;"	m	struct:controller_ops	typeref:typename:void (*)(struct controller * c)
+clear	device.h	/^    void (*clear)(struct device *dv);$/;"	m	struct:device_ops	typeref:typename:void (*)(struct device * dv)
+clear	dicer.c	/^static void clear(struct controller *c)$/;"	f	typeref:typename:void	file:
+clear	jack.c	/^static void clear(struct device *dv)$/;"	f	typeref:typename:void	file:
+clear	oss.c	/^static void clear(struct device *dv)$/;"	f	typeref:typename:void	file:
+clear_fonts	interface.c	/^static void clear_fonts(void)$/;"	f	typeref:typename:void	file:
+clear_spinner	interface.c	/^static void clear_spinner(void)$/;"	f	typeref:typename:void	file:
+client	jack.c	/^static jack_client_t *client = NULL;$/;"	v	typeref:typename:jack_client_t *	file:
+clock_font	interface.c	/^static TTF_Font *clock_font, *deci_font, *detail_font,$/;"	v	typeref:typename:TTF_Font *	file:
+columns	layout.h	/^static inline struct layout columns(unsigned int n, unsigned int total,$/;"	f	typeref:struct:layout
+command	crate_scanner_vanilla	/^            command = ['mediainfo', '--Inform=General;"%Performer%\\t%Track%"', currentFile]$/;"	v
+command	crate_scanner_vanilla	/^            command = ['mediainfo','--Inform=General;"%BPM%"', currentFile]$/;"	v
+commit	track.c	/^static void commit(struct track *tr, size_t len)$/;"	f	typeref:typename:void	file:
+commit_deck	xwax.c	/^static int commit_deck(void)$/;"	f	typeref:typename:int	file:
+commit_pcm_samples	track.c	/^static void commit_pcm_samples(struct track *tr, unsigned int samples)$/;"	f	typeref:typename:void	file:
+completion	excrate.h	/^    struct event completion;$/;"	m	struct:excrate	typeref:struct:event
+container_of	list.h	/^#define container_of(/;"	d
+control	deck.h	/^    struct controller *control[4];$/;"	m	struct:deck	typeref:struct:controller * [4]
+controller	controller.h	/^struct controller {$/;"	s
+controller_add_deck	controller.c	/^void controller_add_deck(struct controller *c, struct deck *d)$/;"	f	typeref:typename:void
+controller_clear	controller.c	/^void controller_clear(struct controller *c)$/;"	f	typeref:typename:void
+controller_handle	controller.c	/^void controller_handle(struct controller *c)$/;"	f	typeref:typename:void
+controller_init	controller.c	/^int controller_init(struct controller *c, struct controller_ops *ops,$/;"	f	typeref:typename:int
+controller_ops	controller.h	/^struct controller_ops {$/;"	s
+controller_pollfds	controller.c	/^ssize_t controller_pollfds(struct controller *c, struct pollfd *pe, size_t z)$/;"	f	typeref:typename:ssize_t
+count_rows	layout.h	/^static inline unsigned int count_rows(struct rect in, unsigned int row_height)$/;"	f	typeref:typename:unsigned int
+crate	library.h	/^    struct crate all, **crate;$/;"	m	struct:library	typeref:struct:crate **
+crate	library.h	/^struct crate {$/;"	s
+crate2Edit	interface.c	/^static struct crate* crate2Edit;$/;"	v	typeref:struct:crate *	file:
+crate_clear	library.c	/^static void crate_clear(struct crate *c)$/;"	f	typeref:typename:void	file:
+crate_cmp	library.c	/^static int crate_cmp(const struct crate *a, const struct crate *b)$/;"	f	typeref:typename:int	file:
+crate_init	library.c	/^static int crate_init(struct crate *c, const char *name)$/;"	f	typeref:typename:int	file:
+crate_init_all	library.c	/^static int crate_init_all(struct library *l, struct crate *c, const char *name)$/;"	f	typeref:typename:int	file:
+crate_init_scan	library.c	/^static int crate_init_scan(struct library *l, struct crate *c, const char *name,$/;"	f	typeref:typename:int	file:
+crate_rescan	library.c	/^static int crate_rescan(struct crate *c, struct library *l)$/;"	f	typeref:typename:int	file:
+crates	library.h	/^    size_t crates;$/;"	m	struct:library	typeref:typename:size_t
+crates	selector.h	/^    struct listbox records, crates;$/;"	m	struct:selector	typeref:struct:listbox
+crossing_ticker	timecoder.h	/^    unsigned int crossing_ticker; \/* samples since we last crossed zero *\/$/;"	m	struct:timecoder_channel	typeref:typename:unsigned int
+ctl	realtime.h	/^    struct controller *ctl[3];$/;"	m	struct:rt	typeref:struct:controller * [3]
+ctl	xwax.c	/^static struct controller ctl[2];$/;"	v	typeref:struct:controller[2]	file:
+cubic_interpolate	player.c	/^static inline double cubic_interpolate(signed short y[4], double mu)$/;"	f	typeref:typename:double	file:
+cue_needle_col	interface.c	/^    cue_needle_col = {255, 255, 0, 255};$/;"	v	typeref:typename:SDL_Color	file:
+cues	cues.h	/^struct cues {$/;"	s
+cues	deck.h	/^    struct cues cues;$/;"	m	struct:deck	typeref:struct:cues
+cues_get	cues.c	/^double cues_get(const struct cues *q, unsigned int label)$/;"	f	typeref:typename:double
+cues_load_from_file	cues.c	/^void cues_load_from_file(struct cues *q, char const* pathname)$/;"	f	typeref:typename:void
+cues_next	cues.c	/^double cues_next(const struct cues *q, double current)$/;"	f	typeref:typename:double
+cues_prev	cues.c	/^double cues_prev(const struct cues *q, double current)$/;"	f	typeref:typename:double
+cues_reset	cues.c	/^void cues_reset(struct cues *q)$/;"	f	typeref:typename:void
+cues_save_to_file	cues.c	/^void cues_save_to_file(struct cues *q, char const* pathname)$/;"	f	typeref:typename:void
+cues_set	cues.c	/^void cues_set(struct cues *q, unsigned int label, double position)$/;"	f	typeref:typename:void
+cues_unset	cues.c	/^void cues_unset(struct cues *q, unsigned int label)$/;"	f	typeref:typename:void
+currentFile	crate_scan	/^    currentFile = currentFile.strip()$/;"	v
+currentPitchSample	player.h	/^    int currentPitchSample;$/;"	m	struct:player	typeref:typename:int
+current_crate	selector.c	/^struct crate* current_crate(struct selector *sel)$/;"	f	typeref:struct:crate *
+cursor_col	interface.c	/^    cursor_col = {192, 0, 0, 255},$/;"	v	typeref:typename:SDL_Color	file:
+dassert	debug.h	/^#define dassert(/;"	d
+debug	crate_scan	/^debug = False$/;"	v
+debug	debug.h	/^#define debug(/;"	d
+deci_font	interface.c	/^static TTF_Font *clock_font, *deci_font, *detail_font,$/;"	v	typeref:typename:TTF_Font **	file:
+deck	deck.h	/^struct deck {$/;"	s
+deck	player.h	/^    struct deck *deck;$/;"	m	struct:player	typeref:struct:deck *
+deck	xwax.c	/^struct deck deck[3];$/;"	v	typeref:struct:deck[3]
+deck_clear	deck.c	/^void deck_clear(struct deck *d)$/;"	f	typeref:typename:void
+deck_clone	deck.c	/^void deck_clone(struct deck *d, const struct deck *from)$/;"	f	typeref:typename:void
+deck_cue	deck.c	/^void deck_cue(struct deck *d, unsigned int label)$/;"	f	typeref:typename:void
+deck_init	deck.c	/^int deck_init(struct deck *d, struct rt *rt,$/;"	f	typeref:typename:int
+deck_is_locked	deck.c	/^bool deck_is_locked(const struct deck *d)$/;"	f	typeref:typename:bool
+deck_load	deck.c	/^void deck_load(struct deck *d, struct record *record)$/;"	f	typeref:typename:void
+deck_punch_in	deck.c	/^void deck_punch_in(struct deck *d, unsigned int label)$/;"	f	typeref:typename:void
+deck_punch_out	deck.c	/^void deck_punch_out(struct deck *d)$/;"	f	typeref:typename:void
+deck_recue	deck.c	/^void deck_recue(struct deck *d)$/;"	f	typeref:typename:void
+deck_save_cue	deck.c	/^void deck_save_cue(struct deck *d)$/;"	f	typeref:typename:void
+deck_unset_cue	deck.c	/^void deck_unset_cue(struct deck *d, unsigned int label)$/;"	f	typeref:typename:void
+def	timecoder.h	/^    struct timecode_def *def;$/;"	m	struct:timecoder	typeref:struct:timecode_def *
+defer_selector_redraw	interface.c	/^static void defer_selector_redraw(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+defer_status_redraw	interface.c	/^static void defer_status_redraw(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+desc	timecoder.h	/^    char *name, *desc;$/;"	m	struct:timecode_def	typeref:typename:char **
+detail_col	interface.c	/^    detail_col = {128, 128, 128, 255},$/;"	v	typeref:typename:SDL_Color	file:
+detail_font	interface.c	/^static TTF_Font *clock_font, *deci_font, *detail_font,$/;"	v	typeref:typename:TTF_Font ***	file:
+detect_zero_crossing	timecoder.c	/^static void detect_zero_crossing(struct timecoder_channel *ch,$/;"	f	typeref:typename:void	file:
+device	deck.h	/^    struct device device;$/;"	m	struct:deck	typeref:struct:device
+device	device.h	/^struct device {$/;"	s
+device	jack.c	/^static struct device *device[4];$/;"	v	typeref:struct:device * [4]	file:
+device_clear	device.c	/^void device_clear(struct device *dv)$/;"	f	typeref:typename:void
+device_collect	device.c	/^void device_collect(struct device *dv, signed short *pcm, size_t n)$/;"	f	typeref:typename:void
+device_connect_player	device.c	/^void device_connect_player(struct device *dv, struct player *pl)$/;"	f	typeref:typename:void
+device_connect_timecoder	device.c	/^void device_connect_timecoder(struct device *dv, struct timecoder *tc)$/;"	f	typeref:typename:void
+device_handle	device.c	/^void device_handle(struct device *dv)$/;"	f	typeref:typename:void
+device_init	device.c	/^void device_init(struct device *dv, struct device_ops *ops)$/;"	f	typeref:typename:void
+device_ops	device.h	/^struct device_ops {$/;"	s
+device_pollfds	device.c	/^ssize_t device_pollfds(struct device *dv, struct pollfd *pe, size_t z)$/;"	f	typeref:typename:ssize_t
+device_sample_rate	device.c	/^unsigned int device_sample_rate(struct device *dv)$/;"	f	typeref:typename:unsigned int
+device_start	device.c	/^void device_start(struct device *dv)$/;"	f	typeref:typename:void
+device_stop	device.c	/^void device_stop(struct device *dv)$/;"	f	typeref:typename:void
+device_submit	device.c	/^void device_submit(struct device *dv, signed short *pcm, size_t n)$/;"	f	typeref:typename:void
+dicer	dicer.c	/^struct dicer {$/;"	s	file:
+dicer.o	Makefile	/^dicer.o:	CFLAGS += $(SDL_CFLAGS)$/;"	t
+dicer_init	dicer.c	/^int dicer_init(struct controller *c, struct rt *rt, const char *hw)$/;"	f	typeref:typename:int
+dicer_ops	dicer.c	/^static struct controller_ops dicer_ops = {$/;"	v	typeref:struct:controller_ops	file:
+die	wichtig.py	/^def die( text ):$/;"	f
+dim	interface.c	/^static SDL_Color dim(const SDL_Color x, int n)$/;"	f	typeref:typename:SDL_Color	file:
+dist	Makefile	/^dist:		.version$/;"	t
+distance	layout.h	/^    unsigned int distance, space; \/* may be pixels, or units *\/$/;"	m	struct:layout	typeref:typename:unsigned int
+dither	mktimecode.c	/^static inline double dither(void)$/;"	f	typeref:typename:double	file:
+dither	player.c	/^static double dither(void)$/;"	f	typeref:typename:double	file:
+do_content_change	selector.c	/^static void do_content_change(struct selector *sel)$/;"	f	typeref:typename:void	file:
+do_crate_change	selector.c	/^static void do_crate_change(struct selector *sel)$/;"	f	typeref:typename:void	file:
+do_draw_text	interface.c	/^static int do_draw_text(SDL_Surface *sf, const struct rect *rect,$/;"	f	typeref:typename:int	file:
+do_fork	external.c	/^static pid_t do_fork(int pp[2], const char *path, char *argv[])$/;"	f	typeref:typename:pid_t	file:
+do_wait	excrate.c	/^static void do_wait(struct excrate *e)$/;"	f	typeref:typename:void	file:
+draw	tests/ttf.c	/^void draw(void)$/;"	f	typeref:typename:void
+draw_albumart	interface.c	/^static void draw_albumart(SDL_Surface *surface, const struct rect *rect, struct selector *sel)$/;"	f	typeref:typename:void	file:
+draw_bpm	interface.c	/^static void draw_bpm(SDL_Surface *surface, const struct rect *rect, double bpm,$/;"	f	typeref:typename:void	file:
+draw_bpm_field	interface.c	/^static void draw_bpm_field(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_clock	interface.c	/^static void draw_clock(SDL_Surface *surface, const struct rect *rect, int t,$/;"	f	typeref:typename:void	file:
+draw_closeup	interface.c	/^static void draw_closeup(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_crate_row	interface.c	/^static void draw_crate_row(const void *context,$/;"	f	typeref:typename:void	file:
+draw_crates	interface.c	/^static void draw_crates(SDL_Surface *surface, const struct rect rect,$/;"	f	typeref:typename:void	file:
+draw_deck	interface.c	/^static void draw_deck(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_deck_clocks	interface.c	/^static void draw_deck_clocks(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_deck_status	interface.c	/^static void draw_deck_status(SDL_Surface *surface,$/;"	f	typeref:typename:void	file:
+draw_deck_top	interface.c	/^static void draw_deck_top(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_decks	interface.c	/^static void draw_decks(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_index	interface.c	/^static void draw_index(SDL_Surface *surface, const struct rect rect,$/;"	f	typeref:typename:void	file:
+draw_library	interface.c	/^static void draw_library(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_listbox	interface.c	/^static void draw_listbox(const struct listbox *lb, SDL_Surface *surface,$/;"	f	typeref:typename:void	file:
+draw_meters	interface.c	/^static void draw_meters(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_overview	interface.c	/^static void draw_overview(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_record	interface.c	/^static void draw_record(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_record_row	interface.c	/^static void draw_record_row(const void *context,$/;"	f	typeref:typename:void	file:
+draw_rect	interface.c	/^static void draw_rect(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_row_t	interface.c	/^typedef void (*draw_row_t)(const void *context,$/;"	t	typeref:typename:void (*)(const void * context,SDL_Surface * surface,const struct rect rect,unsigned int entry,bool selected)	file:
+draw_scope	interface.c	/^static void draw_scope(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_scroll_bar	interface.c	/^static void draw_scroll_bar(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_search	interface.c	/^static void draw_search(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_spinner	interface.c	/^static void draw_spinner(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+draw_status	interface.c	/^static void draw_status(SDL_Surface *sf, const struct rect *rect)$/;"	f	typeref:typename:void	file:
+draw_text	interface.c	/^static int draw_text(SDL_Surface *sf, const struct rect *rect,$/;"	f	typeref:typename:int	file:
+draw_text_in_locale	interface.c	/^static int draw_text_in_locale(SDL_Surface *sf, const struct rect *rect,$/;"	f	typeref:typename:int	file:
+draw_token	interface.c	/^static void draw_token(SDL_Surface *surface, const struct rect *rect,$/;"	f	typeref:typename:void	file:
+dt	pitch.h	/^    double dt, x, v;$/;"	m	struct:pitch	typeref:typename:double
+dt	timecoder.h	/^    double dt, zero_alpha;$/;"	m	struct:timecoder	typeref:typename:double
+dummy_init	dummy.c	/^void dummy_init(struct device *d)$/;"	f	typeref:typename:void
+dummy_ops	dummy.c	/^static struct device_ops dummy_ops = {$/;"	v	typeref:struct:device_ops	file:
+dv	realtime.h	/^    struct device *dv[3];$/;"	m	struct:rt	typeref:struct:device * [3]
+eXwax	README.md	/^# eXwax$/;"	c
+elapsed_col	interface.c	/^    elapsed_col = {0, 32, 255, 255},$/;"	v	typeref:typename:SDL_Color	file:
+em_font	interface.c	/^    *font, *em_font, *big_font;$/;"	v	typeref:typename:TTF_Font *****	file:
+empty	track.c	/^static struct track empty = {$/;"	v	typeref:struct:track	file:
+endsWith	interface.c	/^int endsWith(const char *str, const char *suffix)$/;"	f	typeref:typename:int
+enlarge	index.c	/^static int enlarge(struct index *ls, size_t target)$/;"	f	typeref:typename:int	file:
+entries	index.h	/^    size_t size, entries;$/;"	m	struct:index	typeref:typename:size_t
+entries	listbox.h	/^    int entries, lines, offset, selected;$/;"	m	struct:listbox	typeref:typename:int
+err	crate_scanner_vanilla	/^            aus, err = kommando2( command )$/;"	v
+err	crate_scanner_vanilla	/^            aus, err = kommando2( command , ok_liste = [0,1,127])$/;"	v
+err	crate_scanner_vanilla	/^        aus, err = kommando2( ['find', arg , '-print'])$/;"	v
+event	dicer.c	/^static void event(struct dicer *d, unsigned char buf[3])$/;"	f	typeref:typename:void	file:
+event	observer.h	/^    struct list event;$/;"	m	struct:observer	typeref:struct:list
+event	observer.h	/^struct event {$/;"	s
+event	rig.c	/^static int event[2]; \/* pipe to wake up service thread *\/$/;"	v	typeref:typename:int[2]	file:
+event_clear	observer.h	/^static inline void event_clear(struct event *s)$/;"	f	typeref:typename:void
+event_decoded	dicer.c	/^static void event_decoded(struct deck *d, led_t led[NBUTTONS],$/;"	f	typeref:typename:void	file:
+event_init	observer.h	/^static inline void event_init(struct event *s)$/;"	f	typeref:typename:void
+excrate	excrate.h	/^struct excrate {$/;"	s
+excrate	library.h	/^    struct excrate *excrate;$/;"	m	struct:crate	typeref:struct:excrate *
+excrate_acquire	excrate.c	/^void excrate_acquire(struct excrate *e)$/;"	f	typeref:typename:void
+excrate_acquire_by_scan	excrate.c	/^struct excrate* excrate_acquire_by_scan(const char *script, const char *search,$/;"	f	typeref:struct:excrate *
+excrate_clear	excrate.c	/^static void excrate_clear(struct excrate *e)$/;"	f	typeref:typename:void	file:
+excrate_handle	excrate.c	/^void excrate_handle(struct excrate *e)$/;"	f	typeref:typename:void
+excrate_init	excrate.c	/^static int excrate_init(struct excrate *e, const char *script,$/;"	f	typeref:typename:int	file:
+excrate_pollfd	excrate.c	/^void excrate_pollfd(struct excrate *e, struct pollfd *pe)$/;"	f	typeref:typename:void
+excrate_release	excrate.c	/^void excrate_release(struct excrate *e)$/;"	f	typeref:typename:void
+excrates	excrate.c	/^static struct list excrates = LIST_INIT(excrates);$/;"	v	typeref:struct:list	file:
+excrates	excrate.h	/^    struct list excrates;$/;"	m	struct:excrate	typeref:struct:list
+ext	crate_scan	/^        ext = ext.replace('.','')$/;"	v
+ext	crate_scanner_vanilla	/^        ext = ext.replace('.','')$/;"	v
+exts	crate_scan	/^exts = 'oga cdaudio mp3 flac wav aif aiff'.split()$/;"	v
+exts	crate_scanner_vanilla	/^exts = 'ogg oga aac cdaudio mp3 flac wav aif aiff wma'.split()$/;"	v
+fault	controller.h	/^    bool fault;$/;"	m	struct:controller	typeref:typename:bool
+fault	device.h	/^    bool fault;$/;"	m	struct:device	typeref:typename:bool
+fd	excrate.h	/^    int fd;$/;"	m	struct:excrate	typeref:typename:int
+fd	oss.c	/^    int fd;$/;"	m	struct:oss	typeref:typename:int	file:
+fd	track.h	/^    int fd;$/;"	m	struct:track	typeref:typename:int
+fh	crate_scan	/^        fh = open(arg)$/;"	v
+fh2	crate_scan	/^        fh2=open(currentFile)$/;"	v
+files	crate_scan	/^files = list()$/;"	v
+files	crate_scanner_vanilla	/^files = list()$/;"	v
+finished	realtime.h	/^    bool finished;$/;"	m	struct:rt	typeref:typename:bool
+fire	observer.h	/^static inline void fire(struct event *s, void *data)$/;"	f	typeref:typename:void
+flags	layout.h	/^    unsigned char flags;$/;"	m	struct:layout	typeref:typename:unsigned char
+flags	timecoder.h	/^        flags;$/;"	m	struct:timecode_def	typeref:typename:int
+font	interface.c	/^    *font, *em_font, *big_font;$/;"	v	typeref:typename:TTF_Font ****	file:
+font	tests/ttf.c	/^TTF_Font *font;$/;"	v	typeref:typename:TTF_Font *
+font_dirs	interface.c	/^static const char *font_dirs[] = {$/;"	v	typeref:typename:const char * []	file:
+fork_pipe	external.c	/^pid_t fork_pipe(int *fd, const char *path, char *arg, ...)$/;"	f	typeref:typename:pid_t
+fork_pipe_nb	external.c	/^pid_t fork_pipe_nb(int *fd, const char *path, char *arg, ...)$/;"	f	typeref:typename:pid_t
+forwards	timecoder.h	/^    bool forwards;$/;"	m	struct:timecoder	typeref:typename:bool
+from_bottom	layout.h	/^static inline struct layout from_bottom(unsigned int distance,$/;"	f	typeref:struct:layout
+from_left	layout.h	/^static inline struct layout from_left(unsigned int distance,$/;"	f	typeref:struct:layout
+from_right	layout.h	/^static inline struct layout from_right(unsigned int distance,$/;"	f	typeref:struct:layout
+from_top	layout.h	/^static inline struct layout from_top(unsigned int distance,$/;"	f	typeref:struct:layout
+func	observer.h	/^    void (*func)(struct observer*, void*);$/;"	m	struct:observer	typeref:typename:void (*)(struct observer *,void *)
+fwd	mktimecode.c	/^static inline bits_t fwd(bits_t current, bits_t taps, unsigned int nbits)$/;"	f	typeref:typename:bits_t	file:
+fwd	timecoder.c	/^static inline bits_t fwd(bits_t current, struct timecode_def *def)$/;"	f	typeref:typename:bits_t	file:
+genre	index.h	/^    char *pathname, *artist, *title, *album, *genre; \/*Kenny: Added album and genre *\/$/;"	m	struct:record	typeref:typename:char *****
+genre_col	interface.c	/^    genre_col = {64, 32, 16, 255},$/;"	v	typeref:typename:SDL_Color	file:
+get_crate	library.c	/^struct crate* get_crate(struct library *lib, const char *name)$/;"	f	typeref:struct:crate *
+get_line	external.c	/^ssize_t get_line(int fd, struct rb *rb, char **string)$/;"	f	typeref:typename:ssize_t
+get_record	library.c	/^struct record* get_record(char *line)$/;"	f	typeref:struct:record *
+h	layout.h	/^    pix_t x, y, w, h; \/* pixels *\/$/;"	m	struct:rect	typeref:typename:pix_t
+handle	alsa.c	/^static int handle(struct device *dv)$/;"	f	typeref:typename:int	file:
+handle	device.h	/^    int (*handle)(struct device *dv);$/;"	m	struct:device_ops	typeref:typename:int (*)(struct device * dv)
+handle	oss.c	/^static int handle(struct device *dv)$/;"	f	typeref:typename:int	file:
+handle	tests/library.c	/^void handle(int signum)$/;"	f	typeref:typename:void
+handle_activity	selector.c	/^static void handle_activity(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+handle_key	interface.c	/^static bool handle_key(SDLKey key, SDLMod mod)$/;"	f	typeref:typename:bool	file:
+handle_refresh	selector.c	/^static void handle_refresh(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+handle_trackAdd	interface.c	/^static int handle_trackAdd(struct selector *sel){$/;"	f	typeref:typename:int	file:
+has_space	index.c	/^static bool has_space(const struct index *i)$/;"	f	typeref:typename:bool	file:
+height	interface.c	/^static int width = DEFAULT_WIDTH, height = DEFAULT_HEIGHT,$/;"	v	typeref:typename:int	file:
+hook_up_excrate	library.c	/^static void hook_up_excrate(struct crate *c, struct excrate *e)$/;"	f	typeref:typename:void	file:
+hsv	interface.c	/^static SDL_Color hsv(double h, double s, double v)$/;"	f	typeref:typename:SDL_Color	file:
+hunt_target	selector.c	/^static void hunt_target(struct selector *s)$/;"	f	typeref:typename:void	file:
+ignore	observer.h	/^static inline void ignore(struct observer *observer)$/;"	f	typeref:typename:void
+importer	deck.h	/^    const char *importer;$/;"	m	struct:deck	typeref:typename:const char *
+importer	track.h	/^    const char *importer, *path;$/;"	m	struct:track	typeref:typename:const char *
+importer	xwax.c	/^static const char *importer;$/;"	v	typeref:typename:const char *	file:
+in	midi.h	/^    snd_rawmidi_t *in, *out;$/;"	m	struct:midi	typeref:typename:snd_rawmidi_t *
+index	index.h	/^struct index {$/;"	s
+index_a	selector.h	/^        index_a, index_b;$/;"	m	struct:selector	typeref:struct:index **
+index_add	index.c	/^void index_add(struct index *ls, struct record *lr)$/;"	f	typeref:typename:void
+index_b	selector.h	/^        index_a, index_b;$/;"	m	struct:selector	typeref:struct:index **
+index_blank	index.c	/^void index_blank(struct index *ls)$/;"	f	typeref:typename:void
+index_clear	index.c	/^void index_clear(struct index *ls)$/;"	f	typeref:typename:void
+index_copy	index.c	/^int index_copy(const struct index *src, struct index *dest)$/;"	f	typeref:typename:int
+index_debug	index.c	/^void index_debug(struct index *ls)$/;"	f	typeref:typename:void
+index_find	index.c	/^size_t index_find(struct index *ls, struct record *item, int sort)$/;"	f	typeref:typename:size_t
+index_init	index.c	/^void index_init(struct index *ls)$/;"	f	typeref:typename:void
+index_insert	index.c	/^struct record* index_insert(struct index *ls, struct record *item,$/;"	f	typeref:struct:record *
+index_match	index.c	/^int index_match(struct index *src, struct index *dest,$/;"	f	typeref:typename:int
+index_reserve	index.c	/^int index_reserve(struct index *i, unsigned int n)$/;"	f	typeref:typename:int
+info	crate_scan	/^            info = ''$/;"	v
+info	crate_scanner_vanilla	/^                    info = parseFilename(currentFile)$/;"	v
+info	crate_scanner_vanilla	/^            info = aus.splitlines()[0]$/;"	v
+init_channel	timecoder.c	/^static void init_channel(struct timecoder_channel *ch)$/;"	f	typeref:typename:void	file:
+init_spinner	interface.c	/^static int init_spinner(int size)$/;"	f	typeref:typename:int	file:
+initial	selector.c	/^static struct index* initial(struct selector *sel)$/;"	f	typeref:struct:index *	file:
+input_port	jack.c	/^    jack_port_t *input_port[DEVICE_CHANNELS],$/;"	m	struct:jack	typeref:typename:jack_port_t * []	file:
+install	Makefile	/^install:$/;"	t
+interface.o	Makefile	/^interface.o:	CFLAGS += $(SDL_CFLAGS)$/;"	t
+interface_main	interface.c	/^static int interface_main(void)$/;"	f	typeref:typename:int	file:
+interface_start	interface.c	/^int interface_start(struct library *lib, const char *geo, bool decor, bool display_bpm, bool dis/;"	f	typeref:typename:int
+interface_stop	interface.c	/^void interface_stop(void)$/;"	f	typeref:typename:void
+interleave	jack.c	/^static void interleave(signed short *buf, jack_default_audio_sample_t *jbuf[],$/;"	f	typeref:typename:void	file:
+is_busy	library.h	/^    bool is_fixed, is_busy;$/;"	m	struct:crate	typeref:typename:bool
+is_fixed	library.h	/^    bool is_fixed, is_busy;$/;"	m	struct:crate	typeref:typename:bool
+jack	jack.c	/^struct jack {$/;"	s	file:
+jack_init	jack.c	/^int jack_init(struct device *dv, const char *name)$/;"	f	typeref:typename:int
+jack_ops	jack.c	/^static struct device_ops jack_ops = {$/;"	v	typeref:struct:device_ops	file:
+key	thread.c	/^static pthread_key_t key;$/;"	v	typeref:typename:pthread_key_t	file:
+kommando	wichtig.py	/^def kommando( was, ein=None, ok_liste=[0] ):$/;"	f
+kommando2	wichtig.py	/^def kommando2( aufrufliste, ein=None, ok_liste=[0] ):$/;"	f
+last_difference	player.h	/^        last_difference, \/* last known position minus target_position *\/$/;"	m	struct:player	typeref:typename:double
+launch	interface.c	/^static void* launch(void *p)$/;"	f	typeref:typename:void *	file:
+launch	realtime.c	/^static void* launch(void *p)$/;"	f	typeref:typename:void *	file:
+layout	layout.h	/^struct layout {$/;"	s
+led_cmd	dicer.c	/^static ssize_t led_cmd(led_t led, char *buf, size_t len,$/;"	f	typeref:typename:ssize_t	file:
+led_t	dicer.c	/^typedef unsigned char led_t;$/;"	t	typeref:typename:unsigned char	file:
+left	dicer.c	/^    struct deck *left, *right;$/;"	m	struct:dicer	typeref:struct:deck *	file:
+left_led	dicer.c	/^    led_t left_led[NBUTTONS], right_led[NBUTTONS];$/;"	m	struct:dicer	typeref:typename:led_t[]	file:
+len	external.h	/^    size_t len;$/;"	m	struct:rb	typeref:typename:size_t
+length	timecoder.h	/^    unsigned int length, \/* in cycles *\/$/;"	m	struct:timecode_def	typeref:typename:unsigned int
+length	track.h	/^    unsigned int length, \/* track length in samples *\/$/;"	m	struct:track	typeref:typename:unsigned int
+level	status.c	/^static int level = 0;$/;"	v	typeref:typename:int	file:
+lfsr	mktimecode.c	/^static inline bits_t lfsr(bits_t code, bits_t taps)$/;"	f	typeref:typename:bits_t	file:
+lfsr	timecoder.c	/^static inline bits_t lfsr(bits_t code, bits_t taps)$/;"	f	typeref:typename:bits_t	file:
+library	library.h	/^struct library {$/;"	s
+library	selector.h	/^    struct library *library;$/;"	m	struct:selector	typeref:struct:library *
+library_clear	library.c	/^void library_clear(struct library *li)$/;"	f	typeref:typename:void
+library_global_clear	library.c	/^void library_global_clear(void)$/;"	f	typeref:typename:void
+library_global_init	library.c	/^int library_global_init(void)$/;"	f	typeref:typename:int
+library_import	library.c	/^int library_import(struct library *li, const char *scan, const char *path)$/;"	f	typeref:typename:int
+library_init	library.c	/^int library_init(struct library *li)$/;"	f	typeref:typename:int
+library_rescan	library.c	/^int library_rescan(struct library *l, struct crate *c)$/;"	f	typeref:typename:int
+lines	listbox.h	/^    int entries, lines, offset, selected;$/;"	m	struct:listbox	typeref:typename:int
+list	list.h	/^struct list {$/;"	s
+listOfFiles	crate_scan	/^        listOfFiles = list()$/;"	v
+list_add	list.h	/^static inline void list_add(struct list *new, struct list *head)$/;"	f	typeref:typename:void
+list_add_tail	list.h	/^static inline void list_add_tail(struct list *new, struct list *head)$/;"	f	typeref:typename:void
+list_del	list.h	/^static inline void list_del(struct list *entry)$/;"	f	typeref:typename:void
+list_empty	list.h	/^static inline bool list_empty(const struct list *head)$/;"	f	typeref:typename:bool
+list_entry	list.h	/^#define list_entry(/;"	d
+list_for_each	list.h	/^#define list_for_each(/;"	d
+list_for_each_safe	list.h	/^#define list_for_each_safe(/;"	d
+list_init	list.h	/^static inline void list_init(struct list *list)$/;"	f	typeref:typename:void
+listbox	listbox.h	/^struct listbox {$/;"	s
+listbox_current	listbox.c	/^int listbox_current(const struct listbox *s)$/;"	f	typeref:typename:int
+listbox_down	listbox.c	/^void listbox_down(struct listbox *s, unsigned int n)$/;"	f	typeref:typename:void
+listbox_first	listbox.c	/^void listbox_first(struct listbox *s)$/;"	f	typeref:typename:void
+listbox_init	listbox.c	/^void listbox_init(struct listbox *s)$/;"	f	typeref:typename:void
+listbox_last	listbox.c	/^void listbox_last(struct listbox *s)$/;"	f	typeref:typename:void
+listbox_map	listbox.c	/^int listbox_map(const struct listbox *s, int row)$/;"	f	typeref:typename:int
+listbox_set_entries	listbox.c	/^void listbox_set_entries(struct listbox *s, unsigned int entries)$/;"	f	typeref:typename:void
+listbox_set_lines	listbox.c	/^void listbox_set_lines(struct listbox *s, unsigned int lines)$/;"	f	typeref:typename:void
+listbox_to	listbox.c	/^void listbox_to(struct listbox *s, unsigned int n)$/;"	f	typeref:typename:void
+listbox_up	listbox.c	/^void listbox_up(struct listbox *s, unsigned int n)$/;"	f	typeref:typename:void
+listing	excrate.h	/^    struct listing listing, *storage;$/;"	m	struct:excrate	typeref:struct:listing
+listing	library.h	/^    struct listing *listing;$/;"	m	struct:crate	typeref:struct:listing *
+listing	library.h	/^struct listing {$/;"	s
+listing_add	library.c	/^struct record* listing_add(struct listing *l, struct record *r)$/;"	f	typeref:struct:record *
+listing_clear	library.c	/^void listing_clear(struct listing *l)$/;"	f	typeref:typename:void
+listing_init	library.c	/^void listing_init(struct listing *l)$/;"	f	typeref:typename:void
+load_fonts	interface.c	/^static int load_fonts(void)$/;"	f	typeref:typename:int	file:
+local	controller.h	/^    void *local;$/;"	m	struct:controller	typeref:typename:void *
+local	device.h	/^    void *local;$/;"	m	struct:device	typeref:typename:void *
+lock	player.h	/^    spin lock;$/;"	m	struct:player	typeref:typename:spin
+lock	rig.c	/^mutex lock;$/;"	v	typeref:typename:mutex
+lookup	timecoder.h	/^    bool lookup; \/* true if lut has been generated *\/$/;"	m	struct:timecode_def	typeref:typename:bool
+lut	lut.h	/^struct lut {$/;"	s
+lut	timecoder.h	/^    struct lut lut;$/;"	m	struct:timecode_def	typeref:struct:lut
+lut_clear	lut.c	/^void lut_clear(struct lut *lut)$/;"	f	typeref:typename:void
+lut_init	lut.c	/^int lut_init(struct lut *lut, int nslots)$/;"	f	typeref:typename:int
+lut_lookup	lut.c	/^unsigned int lut_lookup(struct lut *lut, unsigned int timecode)$/;"	f	typeref:typename:unsigned int
+lut_push	lut.c	/^void lut_push(struct lut *lut, unsigned int timecode)$/;"	f	typeref:typename:void
+m3ubase	crate_scan	/^        m3udir, m3ubase = os.path.split(arg)$/;"	v
+m3ubase	crate_scanner_vanilla	/^        m3udir, m3ubase = os.path.split(arg)$/;"	v
+m3udir	crate_scan	/^        m3udir, m3ubase = os.path.split(arg)$/;"	v
+m3udir	crate_scanner_vanilla	/^        m3udir, m3ubase = os.path.split(arg)$/;"	v
+main	mktimecode.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/cues.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/external.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/library.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/midi.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/observer.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/status.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/timecoder.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/track.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	tests/ttf.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+main	xwax.c	/^int main(int argc, char *argv[])$/;"	f	typeref:typename:int
+make_non_blocking	external.c	/^static int make_non_blocking(int fd)$/;"	f	typeref:typename:int	file:
+match	index.h	/^    char *match; \/* or NULL *\/$/;"	m	struct:record	typeref:typename:char *
+match	index.h	/^struct match {$/;"	s
+match	selector.h	/^    struct match match; \/* the compiled search, kept in-sync *\/$/;"	m	struct:selector	typeref:struct:match
+match_compile	index.c	/^void match_compile(struct match *h, const char *d)$/;"	f	typeref:typename:void
+matchable	library.c	/^static char* matchable(const char *artist, const char *title)$/;"	f	typeref:typename:char *	file:
+merge_addition	selector.c	/^static void merge_addition(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+message	status.c	/^static const char *message = "";$/;"	v	typeref:typename:const char *	file:
+meter_scale	interface.c	/^    meter_scale = DEFAULT_METER_SCALE;$/;"	v	typeref:typename:int	file:
+midi	dicer.c	/^    struct midi midi;$/;"	m	struct:dicer	typeref:struct:midi	file:
+midi	midi.h	/^struct midi {$/;"	s
+midi_close	midi.c	/^void midi_close(struct midi *m)$/;"	f	typeref:typename:void
+midi_open	midi.c	/^int midi_open(struct midi *m, const char *name)$/;"	f	typeref:typename:int
+midi_pollfds	midi.c	/^ssize_t midi_pollfds(struct midi *m, struct pollfd *pe, size_t len)$/;"	f	typeref:typename:ssize_t
+midi_read	midi.c	/^ssize_t midi_read(struct midi *m, void *buf, size_t len)$/;"	f	typeref:typename:ssize_t
+midi_write	midi.c	/^ssize_t midi_write(struct midi *m, const void *buf, size_t len)$/;"	f	typeref:typename:ssize_t
+mktimecode	Makefile	/^mktimecode:	LDLIBS  += -lm$/;"	t
+mktimecode	Makefile	/^mktimecode:	mktimecode.o$/;"	t
+mon	timecoder.h	/^    unsigned char *mon; \/* x-y array *\/$/;"	m	struct:timecoder	typeref:typename:unsigned char *
+mon_counter	timecoder.h	/^    int mon_size, mon_counter;$/;"	m	struct:timecoder	typeref:typename:int
+mon_size	timecoder.h	/^    int mon_size, mon_counter;$/;"	m	struct:timecoder	typeref:typename:int
+more_space	track.c	/^static int more_space(struct track *tr)$/;"	f	typeref:typename:int	file:
+mutex	mutex.h	/^typedef pthread_mutex_t mutex;$/;"	t	typeref:typename:pthread_mutex_t
+mutex_clear	mutex.h	/^static inline void mutex_clear(mutex *m)$/;"	f	typeref:typename:void
+mutex_init	mutex.h	/^static inline void mutex_init(mutex *m)$/;"	f	typeref:typename:void
+mutex_lock	mutex.h	/^static inline void mutex_lock(mutex *m)$/;"	f	typeref:typename:void
+mutex_unlock	mutex.h	/^static inline void mutex_unlock(mutex *m)$/;"	f	typeref:typename:void
+name	library.h	/^    char *name;$/;"	m	struct:crate	typeref:typename:char *
+name	timecoder.h	/^    char *name, *desc;$/;"	m	struct:timecode_def	typeref:typename:char *
+ncontrol	deck.h	/^    size_t ncontrol;$/;"	m	struct:deck	typeref:typename:size_t
+nctl	realtime.h	/^    size_t nctl;$/;"	m	struct:rt	typeref:typename:size_t
+nctl	xwax.c	/^static size_t nctl;$/;"	v	typeref:typename:size_t	file:
+ndeck	jack.c	/^    ndeck = 0,$/;"	v	typeref:typename:unsigned	file:
+ndeck	xwax.c	/^size_t ndeck;$/;"	v	typeref:typename:size_t
+ndv	realtime.h	/^    size_t ndv;$/;"	m	struct:rt	typeref:typename:size_t
+needle_col	interface.c	/^    needle_col = {255, 255, 255, 255},$/;"	v	typeref:typename:SDL_Color	file:
+next	list.h	/^    struct list *prev, *next;$/;"	m	struct:list	typeref:struct:list **
+next	lut.h	/^    slot_no_t next; \/* next slot with the same hash *\/$/;"	m	struct:slot	typeref:typename:slot_no_t
+next_definition	timecoder.c	/^static struct timecode_def* next_definition(struct timecode_def *def)$/;"	f	typeref:struct:timecode_def *	file:
+no_record	deck.c	/^static const struct record no_record = {$/;"	v	typeref:typename:const struct record	file:
+notify	selector.c	/^static void notify(struct selector *s)$/;"	f	typeref:typename:void	file:
+npt	realtime.h	/^    size_t npt;$/;"	m	struct:rt	typeref:typename:size_t
+nstarted	jack.c	/^    nstarted = 0;$/;"	v	typeref:typename:unsigned	file:
+observer	observer.h	/^struct observer {$/;"	s
+observers	observer.h	/^    struct list observers;$/;"	m	struct:event	typeref:struct:list
+obuf	dicer.c	/^    char obuf[180];$/;"	m	struct:dicer	typeref:typename:char[180]	file:
+offset	listbox.h	/^    int entries, lines, offset, selected;$/;"	m	struct:listbox	typeref:typename:int
+offset	player.h	/^        offset, \/* track start point in timecode *\/$/;"	m	struct:player	typeref:typename:double
+ofill	dicer.c	/^    size_t ofill;$/;"	m	struct:dicer	typeref:typename:size_t	file:
+ok_col	interface.c	/^    ok_col = {32, 128, 3, 255},$/;"	v	typeref:typename:SDL_Color	file:
+on_activity	selector.h	/^    struct observer on_activity, on_refresh, on_addition;$/;"	m	struct:selector	typeref:struct:observer
+on_addition	library.h	/^    struct observer on_addition, on_completion;$/;"	m	struct:crate	typeref:struct:observer
+on_addition	selector.h	/^    struct observer on_activity, on_refresh, on_addition;$/;"	m	struct:selector	typeref:struct:observer
+on_completion	library.h	/^    struct observer on_addition, on_completion;$/;"	m	struct:crate	typeref:struct:observer
+on_refresh	selector.h	/^    struct observer on_activity, on_refresh, on_addition;$/;"	m	struct:selector	typeref:struct:observer
+on_selector	interface.c	/^static struct observer on_status, on_selector;$/;"	v	typeref:struct:observer	file:
+on_status	interface.c	/^static struct observer on_status, on_selector;$/;"	v	typeref:struct:observer	file:
+open_font	interface.c	/^static TTF_Font* open_font(const char *name, int size) {$/;"	f	typeref:typename:TTF_Font *	file:
+ops	controller.h	/^    struct controller_ops *ops;$/;"	m	struct:controller	typeref:struct:controller_ops *
+ops	device.h	/^    struct device_ops *ops;$/;"	m	struct:device	typeref:struct:device_ops *
+opts	crate_scanner_vanilla	/^opts, args = optionparse.parse( usage )$/;"	v
+opts	exwax-pyalbumart	/^opts, args = optionparse.parse( usage )$/;"	v
+oss	oss.c	/^struct oss {$/;"	s	file:
+oss_init	oss.c	/^int oss_init(struct device *dv, const char *filename, unsigned int rate,$/;"	f	typeref:typename:int
+oss_ops	oss.c	/^static struct device_ops oss_ops = {$/;"	v	typeref:struct:device_ops	file:
+out	midi.h	/^    snd_rawmidi_t *in, *out;$/;"	m	struct:midi	typeref:typename:snd_rawmidi_t **
+output_port	jack.c	/^        *output_port[DEVICE_CHANNELS];$/;"	m	struct:jack	typeref:typename:jack_port_t * []* []	file:
+overview	track.h	/^        overview[TRACK_BLOCK_SAMPLES \/ TRACK_OVERVIEW_RES];$/;"	m	struct:track_block	typeref:typename:unsigned char[][]
+overview	track.h	/^    unsigned int overview;$/;"	m	struct:track	typeref:typename:unsigned int
+palette	interface.c	/^static Uint32 palette(SDL_Surface *sf, SDL_Color *col)$/;"	f	typeref:typename:Uint32	file:
+parseFilename	crate_scan	/^def parseFilename(file):$/;"	f
+parseFilename	crate_scanner_vanilla	/^def parseFilename(file):$/;"	f
+parse_bpm	library.c	/^static double parse_bpm(const char *s)$/;"	f	typeref:typename:double	file:
+parse_geometry	interface.c	/^static int parse_geometry(const char *s)$/;"	f	typeref:typename:int	file:
+path	library.h	/^    const char *scan, *path;$/;"	m	struct:crate	typeref:typename:const char **
+path	track.h	/^    const char *importer, *path;$/;"	m	struct:track	typeref:typename:const char **
+pathname	index.h	/^    char *pathname, *artist, *title, *album, *genre; \/*Kenny: Added album and genre *\/$/;"	m	struct:record	typeref:typename:char *
+pcm	alsa.c	/^    snd_pcm_t *pcm;$/;"	m	struct:alsa_pcm	typeref:typename:snd_pcm_t *	file:
+pcm	track.h	/^    signed short pcm[TRACK_BLOCK_SAMPLES * TRACK_CHANNELS];$/;"	m	struct:track_block	typeref:typename:signed short[]
+pcm_close	alsa.c	/^static void pcm_close(struct alsa_pcm *alsa)$/;"	f	typeref:typename:void	file:
+pcm_open	alsa.c	/^static int pcm_open(struct alsa_pcm *alsa, const char *device_name,$/;"	f	typeref:typename:int	file:
+pcm_pollfds	alsa.c	/^static ssize_t pcm_pollfds(struct alsa_pcm *alsa, struct pollfd *pe,$/;"	f	typeref:typename:ssize_t	file:
+pcm_revents	alsa.c	/^static int pcm_revents(struct alsa_pcm *alsa, unsigned short *revents) {$/;"	f	typeref:typename:int	file:
+pe	alsa.c	/^    struct pollfd *pe;$/;"	m	struct:alsa_pcm	typeref:struct:pollfd *	file:
+pe	excrate.h	/^    struct pollfd *pe;$/;"	m	struct:excrate	typeref:struct:pollfd *
+pe	oss.c	/^    struct pollfd *pe;$/;"	m	struct:oss	typeref:struct:pollfd *	file:
+pe	track.h	/^    struct pollfd *pe;$/;"	m	struct:track	typeref:struct:pollfd *
+pe_count	alsa.c	/^    size_t pe_count; \/* number of pollfd entries *\/$/;"	m	struct:alsa_pcm	typeref:typename:size_t	file:
+period	alsa.c	/^    snd_pcm_uframes_t period;$/;"	m	struct:alsa_pcm	typeref:typename:snd_pcm_uframes_t	file:
+ph	interface.c	/^static pthread_t ph;$/;"	v	typeref:typename:pthread_t	file:
+ph	realtime.h	/^    pthread_t ph;$/;"	m	struct:rt	typeref:typename:pthread_t
+phono	xwax.c	/^static bool protect, phono;$/;"	v	typeref:typename:bool	file:
+pid	excrate.h	/^    pid_t pid;$/;"	m	struct:excrate	typeref:typename:pid_t
+pid	track.h	/^    pid_t pid;$/;"	m	struct:track	typeref:typename:pid_t
+pitch	pitch.h	/^struct pitch {$/;"	s
+pitch	player.h	/^        pitch, \/* from timecoder *\/$/;"	m	struct:player	typeref:typename:double
+pitch	timecoder.h	/^    struct pitch pitch;$/;"	m	struct:timecoder	typeref:struct:pitch
+pitchSampleAmount	player.h	/^    int pitchSampleAmount;$/;"	m	struct:player	typeref:typename:int
+pitchSamples	player.h	/^    double pitchSamples[160];$/;"	m	struct:player	typeref:typename:double[160]
+pitch_current	pitch.h	/^static inline double pitch_current(struct pitch *p)$/;"	f	typeref:typename:double
+pitch_dt_observation	pitch.h	/^static inline void pitch_dt_observation(struct pitch *p, double dx)$/;"	f	typeref:typename:void
+pitch_init	pitch.h	/^static inline void pitch_init(struct pitch *p, double dt)$/;"	f	typeref:typename:void
+pix_t	layout.h	/^typedef signed short pix_t;$/;"	t	typeref:typename:signed short
+pixels	layout.h	/^static inline struct layout pixels(struct layout j)$/;"	f	typeref:struct:layout
+playback	alsa.c	/^    struct alsa_pcm capture, playback;$/;"	m	struct:alsa	typeref:struct:alsa_pcm	file:
+playback	alsa.c	/^static int playback(struct device *dv)$/;"	f	typeref:typename:int	file:
+playedbg_col	interface.c	/^    playedbg_col = {32, 32, 32, 255},$/;"	v	typeref:typename:SDL_Color	file:
+playedtext_col	interface.c	/^    playedtext_col = {124, 124, 124, 255},$/;"	v	typeref:typename:SDL_Color	file:
+player	deck.h	/^    struct player player;$/;"	m	struct:deck	typeref:struct:player
+player	device.h	/^    struct player *player;$/;"	m	struct:device	typeref:struct:player *
+player	player.h	/^struct player {$/;"	s
+player_clear	player.c	/^void player_clear(struct player *pl)$/;"	f	typeref:typename:void
+player_clone	player.c	/^void player_clone(struct player *pl, const struct player *from)$/;"	f	typeref:typename:void
+player_collect	player.c	/^void player_collect(struct player *pl, signed short *pcm, unsigned samples)$/;"	f	typeref:typename:void
+player_getAveragePitch	player.c	/^double player_getAveragePitch(struct player *pl){$/;"	f	typeref:typename:double
+player_get_elapsed	player.c	/^double player_get_elapsed(struct player *pl)$/;"	f	typeref:typename:double
+player_get_position	player.c	/^double player_get_position(struct player *pl)$/;"	f	typeref:typename:double
+player_get_remain	player.c	/^double player_get_remain(struct player *pl)$/;"	f	typeref:typename:double
+player_init	player.c	/^void player_init(struct player *pl,struct deck *deck, unsigned int sample_rate,$/;"	f	typeref:typename:void
+player_is_active	player.c	/^bool player_is_active(const struct player *pl)$/;"	f	typeref:typename:bool
+player_recue	player.c	/^void player_recue(struct player *pl)$/;"	f	typeref:typename:void
+player_seek_to	player.c	/^void player_seek_to(struct player *pl, double seconds)$/;"	f	typeref:typename:void
+player_set_internal_playback	player.c	/^void player_set_internal_playback(struct player *pl)$/;"	f	typeref:typename:void
+player_set_timecode_control	player.c	/^void player_set_timecode_control(struct player *pl, bool on)$/;"	f	typeref:typename:void
+player_set_timecoder	player.c	/^void player_set_timecoder(struct player *pl, struct timecoder *tc)$/;"	f	typeref:typename:void
+player_set_track	player.c	/^void player_set_track(struct player *pl, struct track *track)$/;"	f	typeref:typename:void
+player_toggle_timecode_control	player.c	/^bool player_toggle_timecode_control(struct player *pl)$/;"	f	typeref:typename:bool
+pollfds	alsa.c	/^static ssize_t pollfds(struct device *dv, struct pollfd *pe, size_t z)$/;"	f	typeref:typename:ssize_t	file:
+pollfds	controller.h	/^    ssize_t (*pollfds)(struct controller *c, struct pollfd *pe, size_t z);$/;"	m	struct:controller_ops	typeref:typename:ssize_t (*)(struct controller * c,struct pollfd * pe,size_t z)
+pollfds	device.h	/^    ssize_t (*pollfds)(struct device *dv, struct pollfd *pe, size_t z);$/;"	m	struct:device_ops	typeref:typename:ssize_t (*)(struct device * dv,struct pollfd * pe,size_t z)
+pollfds	dicer.c	/^static ssize_t pollfds(struct controller *c, struct pollfd *pe, size_t z)$/;"	f	typeref:typename:ssize_t	file:
+pollfds	oss.c	/^static ssize_t pollfds(struct device *dv, struct pollfd *pe, size_t z)$/;"	f	typeref:typename:ssize_t	file:
+pop	external.c	/^static ssize_t pop(struct rb *rb, char **q)$/;"	f	typeref:typename:ssize_t	file:
+portion	layout.h	/^    float portion;$/;"	m	struct:layout	typeref:typename:float
+portion	layout.h	/^static inline struct layout portion(unsigned char flags, double f,$/;"	f	typeref:struct:layout
+position	cues.h	/^    double position[MAX_CUES];$/;"	m	struct:cues	typeref:typename:double[]
+position	player.h	/^    double position, \/* seconds *\/$/;"	m	struct:player	typeref:typename:double
+positive	timecoder.h	/^    bool positive, \/* wave is in positive part of cycle *\/$/;"	m	struct:timecoder_channel	typeref:typename:bool
+post_event	rig.c	/^static int post_event(char e)$/;"	f	typeref:typename:int	file:
+ppm	track.h	/^    unsigned char ppm[TRACK_BLOCK_SAMPLES \/ TRACK_PPM_RES],$/;"	m	struct:track_block	typeref:typename:unsigned char[]
+ppm	track.h	/^    unsigned short ppm;$/;"	m	struct:track	typeref:typename:unsigned short
+prefix	crate_scan	/^                prefix = ''$/;"	v
+prefix	crate_scanner_vanilla	/^                prefix = ''$/;"	v
+prev	list.h	/^    struct list *prev, *next;$/;"	m	struct:list	typeref:struct:list *
+primary	timecoder.h	/^    struct timecoder_channel primary, secondary;$/;"	m	struct:timecoder	typeref:struct:timecoder_channel
+priority	realtime.h	/^    int priority;$/;"	m	struct:rt	typeref:typename:int
+process_bitstream	timecoder.c	/^static void process_bitstream(struct timecoder *tc, signed int m)$/;"	f	typeref:typename:void	file:
+process_callback	jack.c	/^static int process_callback(jack_nframes_t nframes, void *local)$/;"	f	typeref:typename:int	file:
+process_deck	jack.c	/^static void process_deck(struct device *dv, jack_nframes_t nframes)$/;"	f	typeref:typename:void	file:
+process_sample	timecoder.c	/^static void process_sample(struct timecoder *tc,$/;"	f	typeref:typename:void	file:
+propagate_addition	library.c	/^static void propagate_addition(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+propagate_completion	library.c	/^static void propagate_completion(struct observer *o, void *x)$/;"	f	typeref:typename:void	file:
+protect	deck.h	/^    bool protect;$/;"	m	struct:deck	typeref:typename:bool
+protect	xwax.c	/^static bool protect, phono;$/;"	v	typeref:typename:bool	file:
+pt	realtime.h	/^    struct pollfd pt[32];$/;"	m	struct:rt	typeref:struct:pollfd[32]
+pull	oss.c	/^static int pull(int fd, signed short *pcm, int samples)$/;"	f	typeref:typename:int	file:
+punch	deck.h	/^    double punch;$/;"	m	struct:deck	typeref:typename:double
+push	oss.c	/^static int push(int fd, signed short *pcm, int samples)$/;"	f	typeref:typename:int	file:
+push_event	interface.c	/^static void push_event(int t)$/;"	f	typeref:typename:void	file:
+qcompar	library.c	/^static int qcompar(const void *a, const void *b)$/;"	f	typeref:typename:int	file:
+raise_priority	realtime.c	/^static int raise_priority(int priority)$/;"	f	typeref:typename:int	file:
+rate	alsa.c	/^    int rate;$/;"	m	struct:alsa_pcm	typeref:typename:int	file:
+rate	jack.c	/^static unsigned rate,$/;"	v	typeref:typename:unsigned	file:
+rate	oss.c	/^    unsigned int rate;$/;"	m	struct:oss	typeref:typename:unsigned int	file:
+rate	track.h	/^    int rate;$/;"	m	struct:track	typeref:typename:int
+rb	excrate.h	/^    struct rb rb;$/;"	m	struct:excrate	typeref:struct:rb
+rb	external.h	/^struct rb {$/;"	s
+rb_is_full	external.c	/^bool rb_is_full(const struct rb *rb)$/;"	f	typeref:typename:bool
+rb_reset	external.c	/^void rb_reset(struct rb *rb)$/;"	f	typeref:typename:void
+read_from_pipe	excrate.c	/^static int read_from_pipe(struct excrate *e)$/;"	f	typeref:typename:int	file:
+read_from_pipe	track.c	/^static int read_from_pipe(struct track *tr)$/;"	f	typeref:typename:int	file:
+realtime	controller.h	/^    int (*realtime)(struct controller *c);$/;"	m	struct:controller_ops	typeref:typename:int (*)(struct controller * c)
+realtime	dicer.c	/^static int realtime(struct controller *c)$/;"	f	typeref:typename:int	file:
+recalibrate	player.h	/^        recalibrate; \/* re-sync offset at next opportunity *\/$/;"	m	struct:player	typeref:typename:bool
+record	deck.h	/^    const struct record *record;$/;"	m	struct:deck	typeref:typename:const struct record *
+record	index.h	/^    struct record **record;$/;"	m	struct:index	typeref:struct:record **
+record	index.h	/^struct record {$/;"	s
+record_clear	library.c	/^static void record_clear(struct record *re)$/;"	f	typeref:typename:void	file:
+record_cmp_album	index.c	/^static int record_cmp_album(const struct record *a, const struct record *b)$/;"	f	typeref:typename:int	file:
+record_cmp_artist	index.c	/^static int record_cmp_artist(const struct record *a, const struct record *b)$/;"	f	typeref:typename:int	file:
+record_cmp_bpm	index.c	/^static int record_cmp_bpm(const struct record *a, const struct record *b)$/;"	f	typeref:typename:int	file:
+record_cmp_genre	index.c	/^static int record_cmp_genre(const struct record *a, const struct record *b)$/;"	f	typeref:typename:int	file:
+record_match	index.c	/^bool record_match(struct record *re, const struct match *h)$/;"	f	typeref:typename:bool
+record_match_word	index.c	/^static bool record_match_word(struct record *re, const char *match)$/;"	f	typeref:typename:bool	file:
+record_set_played	index.c	/^void record_set_played(struct record *re){$/;"	f	typeref:typename:void
+records	selector.h	/^    struct listbox records, crates;$/;"	m	struct:selector	typeref:struct:listbox
+rect	layout.h	/^static inline struct rect rect(pix_t x, pix_t y, pix_t w, pix_t h, float scale)$/;"	f	typeref:struct:rect
+rect	layout.h	/^struct rect {$/;"	s
+ref_level	timecoder.h	/^    signed int ref_level;$/;"	m	struct:timecoder	typeref:typename:signed int
+refcount	excrate.h	/^    unsigned int refcount;$/;"	m	struct:excrate	typeref:typename:unsigned int
+refcount	track.h	/^    unsigned int refcount;$/;"	m	struct:track	typeref:typename:unsigned int
+refresh	library.h	/^        refresh, addition;$/;"	m	struct:crate	typeref:struct:event
+register_ports	jack.c	/^static int register_ports(struct jack *jack, const char *name)$/;"	f	typeref:typename:int	file:
+replace_path_ext	cues.c	/^char* replace_path_ext(char const* pathname)$/;"	f	typeref:typename:char *
+resolution	timecoder.h	/^        resolution, \/* wave cycles per second *\/$/;"	m	struct:timecode_def	typeref:typename:int
+retain_target	selector.c	/^static void retain_target(struct selector *sel)$/;"	f	typeref:typename:void	file:
+retarget	player.c	/^void retarget(struct player *pl)$/;"	f	typeref:typename:void
+rev	timecoder.c	/^static inline bits_t rev(bits_t current, struct timecode_def *def)$/;"	f	typeref:typename:bits_t	file:
+rgb	interface.c	/^static SDL_Color rgb(double r, double g, double b)$/;"	f	typeref:typename:SDL_Color	file:
+rig	excrate.h	/^    struct list rig;$/;"	m	struct:excrate	typeref:struct:list
+rig	track.h	/^    struct list rig;$/;"	m	struct:track	typeref:struct:list
+rig_clear	rig.c	/^void rig_clear()$/;"	f	typeref:typename:void
+rig_init	rig.c	/^int rig_init()$/;"	f	typeref:typename:int
+rig_lock	rig.c	/^void rig_lock(void)$/;"	f	typeref:typename:void
+rig_main	rig.c	/^int rig_main()$/;"	f	typeref:typename:int
+rig_post_excrate	rig.c	/^void rig_post_excrate(struct excrate *e)$/;"	f	typeref:typename:void
+rig_post_track	rig.c	/^void rig_post_track(struct track *t)$/;"	f	typeref:typename:void
+rig_quit	rig.c	/^int rig_quit()$/;"	f	typeref:typename:int
+rig_unlock	rig.c	/^void rig_unlock(void)$/;"	f	typeref:typename:void
+right	dicer.c	/^    struct deck *left, *right;$/;"	m	struct:dicer	typeref:struct:deck **	file:
+right_led	dicer.c	/^    led_t left_led[NBUTTONS], right_led[NBUTTONS];$/;"	m	struct:dicer	typeref:typename:led_t[][]	file:
+rows	layout.h	/^static inline struct layout rows(unsigned int n, unsigned int total,$/;"	f	typeref:struct:layout
+rt	realtime.h	/^struct rt {$/;"	s
+rt	xwax.c	/^static struct rt rt;$/;"	v	typeref:struct:rt	file:
+rt_add_controller	realtime.c	/^int rt_add_controller(struct rt *rt, struct controller *c)$/;"	f	typeref:typename:int
+rt_add_device	realtime.c	/^int rt_add_device(struct rt *rt, struct device *dv)$/;"	f	typeref:typename:int
+rt_clear	realtime.c	/^void rt_clear(struct rt *rt)$/;"	f	typeref:typename:void
+rt_init	realtime.c	/^void rt_init(struct rt *rt)$/;"	f	typeref:typename:void
+rt_main	realtime.c	/^static void rt_main(struct rt *rt)$/;"	f	typeref:typename:void	file:
+rt_not_allowed	thread.c	/^void rt_not_allowed()$/;"	f	typeref:typename:void
+rt_start	realtime.c	/^int rt_start(struct rt *rt, int priority)$/;"	f	typeref:typename:int
+rt_stop	realtime.c	/^void rt_stop(struct rt *rt)$/;"	f	typeref:typename:void
+rufe_befehl_auf	wichtig.py	/^    def rufe_befehl_auf( liste, ein ):$/;"	f	function:kommando2	file:
+safe	timecoder.h	/^        safe; \/* last 'safe' timecode number (for auto disconnect) *\/$/;"	m	struct:timecode_def	typeref:typename:unsigned int
+sample_dt	player.h	/^    double sample_dt;$/;"	m	struct:player	typeref:typename:double
+sample_rate	alsa.c	/^static unsigned int sample_rate(struct device *dv)$/;"	f	typeref:typename:unsigned int	file:
+sample_rate	device.h	/^    unsigned int (*sample_rate)(struct device *dv);$/;"	m	struct:device_ops	typeref:typename:unsigned int (*)(struct device * dv)
+sample_rate	dummy.c	/^static unsigned int sample_rate(struct device *d)$/;"	f	typeref:typename:unsigned int	file:
+sample_rate	jack.c	/^static unsigned int sample_rate(struct device *dv)$/;"	f	typeref:typename:unsigned int	file:
+sample_rate	oss.c	/^static unsigned int sample_rate(struct device *dv)$/;"	f	typeref:typename:unsigned int	file:
+scale	interface.c	/^static float scale = DEFAULT_SCALE;$/;"	v	typeref:typename:float	file:
+scale	layout.h	/^    float scale;$/;"	m	struct:rect	typeref:typename:float
+scan	library.h	/^    const char *scan, *path;$/;"	m	struct:crate	typeref:typename:const char *
+search	excrate.h	/^    const char *search;$/;"	m	struct:excrate	typeref:typename:const char *
+search	selector.h	/^    char search[256];$/;"	m	struct:selector	typeref:typename:char[256]
+search_len	selector.h	/^    size_t search_len;$/;"	m	struct:selector	typeref:typename:size_t
+search_subdirs	exwax-pyalbumart	/^def search_subdirs(dir):$/;"	f
+secondary	timecoder.h	/^    struct timecoder_channel primary, secondary;$/;"	m	struct:timecoder	typeref:struct:timecoder_channel
+seed	timecoder.h	/^    bits_t seed, \/* LFSR value at timecode zero *\/$/;"	m	struct:timecode_def	typeref:typename:bits_t
+selected	listbox.h	/^    int entries, lines, offset, selected;$/;"	m	struct:listbox	typeref:typename:int
+selected_col	interface.c	/^    selected_col = {0, 48, 64, 255},$/;"	v	typeref:typename:SDL_Color	file:
+selector	interface.c	/^static struct selector selector;$/;"	v	typeref:struct:selector	file:
+selector	selector.h	/^struct selector {$/;"	s
+selector_bottom	selector.c	/^void selector_bottom(struct selector *sel)$/;"	f	typeref:typename:void
+selector_clear	selector.c	/^void selector_clear(struct selector *sel)$/;"	f	typeref:typename:void
+selector_current	selector.c	/^struct record* selector_current(struct selector *sel)$/;"	f	typeref:struct:record *
+selector_down	selector.c	/^void selector_down(struct selector *sel)$/;"	f	typeref:typename:void
+selector_init	selector.c	/^void selector_init(struct selector *sel, struct library *lib)$/;"	f	typeref:typename:void
+selector_next	selector.c	/^void selector_next(struct selector *sel)$/;"	f	typeref:typename:void
+selector_page_down	selector.c	/^void selector_page_down(struct selector *sel)$/;"	f	typeref:typename:void
+selector_page_up	selector.c	/^void selector_page_up(struct selector *sel)$/;"	f	typeref:typename:void
+selector_prev	selector.c	/^void selector_prev(struct selector *sel)$/;"	f	typeref:typename:void
+selector_rescan	selector.c	/^void selector_rescan(struct selector *sel)$/;"	f	typeref:typename:void
+selector_search_expand	selector.c	/^void selector_search_expand(struct selector *sel)$/;"	f	typeref:typename:void
+selector_search_refine	selector.c	/^void selector_search_refine(struct selector *sel, char key)$/;"	f	typeref:typename:void
+selector_set_lines	selector.c	/^void selector_set_lines(struct selector *sel, unsigned int lines_crates, unsigned int lines_reco/;"	f	typeref:typename:void
+selector_toggle	selector.c	/^void selector_toggle(struct selector *sel)$/;"	f	typeref:typename:void
+selector_toggle_order	selector.c	/^void selector_toggle_order(struct selector *sel)$/;"	f	typeref:typename:void
+selector_top	selector.c	/^void selector_top(struct selector *sel)$/;"	f	typeref:typename:void
+selector_up	selector.c	/^void selector_up(struct selector *sel)$/;"	f	typeref:typename:void
+sem	realtime.h	/^    sem_t sem;$/;"	m	struct:rt	typeref:typename:sem_t
+set_led	dicer.c	/^static void set_led(led_t *led, unsigned char set, unsigned char clear)$/;"	f	typeref:typename:void	file:
+set_size	interface.c	/^static SDL_Surface* set_size(int w, int h, struct rect *r)$/;"	f	typeref:typename:SDL_Surface *	file:
+set_target	selector.c	/^static void set_target(struct selector *sel)$/;"	f	typeref:typename:void	file:
+show_bpm	interface.c	/^static bool show_bpm(double bpm)$/;"	f	typeref:typename:bool	file:
+shrink	layout.h	/^static inline struct rect shrink(const struct rect in, int distance)$/;"	f	typeref:struct:rect
+shutdown_callback	jack.c	/^static void shutdown_callback(void *local)$/;"	f	typeref:typename:void	file:
+size	index.h	/^    size_t size, entries;$/;"	m	struct:index	typeref:typename:size_t
+slot	lut.h	/^    struct slot *slot;$/;"	m	struct:lut	typeref:struct:slot *
+slot	lut.h	/^struct slot {$/;"	s
+slot_no_t	lut.h	/^typedef unsigned int slot_no_t;$/;"	t	typeref:typename:unsigned int
+sort	selector.h	/^    int toggle_back, sort;$/;"	m	struct:selector	typeref:typename:int
+sort_crates	library.c	/^static void sort_crates(struct library *lib)$/;"	f	typeref:typename:void	file:
+space	layout.h	/^    unsigned int distance, space; \/* may be pixels, or units *\/$/;"	m	struct:layout	typeref:typename:unsigned int
+speed	timecoder.h	/^    double speed;$/;"	m	struct:timecoder	typeref:typename:double
+speed	xwax.c	/^static double speed;$/;"	v	typeref:typename:double	file:
+spin	spin.h	/^typedef pthread_spinlock_t spin;$/;"	t	typeref:typename:pthread_spinlock_t
+spin_clear	spin.h	/^static inline void spin_clear(spin *s)$/;"	f	typeref:typename:void
+spin_init	spin.h	/^static inline void spin_init(spin *s)$/;"	f	typeref:typename:void
+spin_lock	spin.h	/^static inline void spin_lock(spin *s)$/;"	f	typeref:typename:void
+spin_try_lock	spin.h	/^static inline bool spin_try_lock(spin *s)$/;"	f	typeref:typename:bool
+spin_unlock	spin.h	/^static inline void spin_unlock(spin *s)$/;"	f	typeref:typename:void
+spinner_angle	interface.c	/^static unsigned short *spinner_angle, spinner_size;$/;"	v	typeref:typename:unsigned short *	file:
+spinner_size	interface.c	/^static unsigned short *spinner_angle, spinner_size;$/;"	v	typeref:typename:unsigned short *	file:
+split	layout.h	/^static inline void split(const struct rect x, const struct layout spec,$/;"	f	typeref:typename:void
+split	library.c	/^static size_t split(char *s, char *x[], size_t len)$/;"	f	typeref:typename:size_t	file:
+st_display_art	interface.c	/^static bool st_display_art = true;$/;"	v	typeref:typename:bool	file:
+st_display_bpm	interface.c	/^static bool st_display_bpm = true;$/;"	v	typeref:typename:bool	file:
+st_display_new_cols	interface.c	/^static bool st_display_new_cols;$/;"	v	typeref:typename:bool	file:
+start	alsa.c	/^static void start(struct device *dv)$/;"	f	typeref:typename:void	file:
+start	device.h	/^    void (*start)(struct device *dv);$/;"	m	struct:device_ops	typeref:typename:void (*)(struct device * dv)
+start	jack.c	/^static void start(struct device *dv)$/;"	f	typeref:typename:void	file:
+start_deck	xwax.c	/^static struct device* start_deck(const char *desc)$/;"	f	typeref:struct:device *	file:
+start_jack_client	jack.c	/^static int start_jack_client(void)$/;"	f	typeref:typename:int	file:
+started	jack.c	/^    bool started;$/;"	m	struct:jack	typeref:typename:bool	file:
+status	index.h	/^    int status;$/;"	m	struct:record	typeref:typename:int
+status	status.c	/^const char* status(void)$/;"	f	typeref:typename:const char *
+status_changed	status.c	/^struct event status_changed = EVENT_INIT(status_changed);$/;"	v	typeref:struct:event
+status_level	status.c	/^int status_level(void)$/;"	f	typeref:typename:int
+status_printf	status.c	/^void status_printf(int lvl, const char *t, ...)$/;"	f	typeref:typename:void
+status_set	status.c	/^void status_set(int l, const char *s)$/;"	f	typeref:typename:void
+stop	device.h	/^    void (*stop)(struct device *dv);$/;"	m	struct:device_ops	typeref:typename:void (*)(struct device * dv)
+stop	jack.c	/^static void stop(struct device *dv)$/;"	f	typeref:typename:void	file:
+stop_import	track.c	/^static void stop_import(struct track *t)$/;"	f	typeref:typename:void	file:
+stop_jack_client	jack.c	/^static int stop_jack_client(void)$/;"	f	typeref:typename:int	file:
+storage	excrate.h	/^    struct listing listing, *storage;$/;"	m	struct:excrate	typeref:struct:listing *
+storage	library.h	/^    struct listing storage; \/* owns the record pointers *\/$/;"	m	struct:library	typeref:struct:listing
+surface	tests/ttf.c	/^SDL_Surface *surface;$/;"	v	typeref:typename:SDL_Surface *
+swap_index	selector.h	/^        *swap_index, \/* used to swap between a and b indexes *\/$/;"	m	struct:selector	typeref:struct:index **
+swapped	timecoder.h	/^	swapped; \/* wave recently swapped polarity *\/$/;"	m	struct:timecoder_channel	typeref:typename:bool
+sync_all_leds	dicer.c	/^static void sync_all_leds(struct dicer *d)$/;"	f	typeref:typename:void	file:
+sync_one_dicer	dicer.c	/^static size_t sync_one_dicer(led_t led[NBUTTONS], bool right,$/;"	f	typeref:typename:size_t	file:
+sync_one_led	dicer.c	/^static ssize_t sync_one_led(led_t *led, char *buf, size_t len,$/;"	f	typeref:typename:ssize_t	file:
+sync_pitch	player.h	/^        sync_pitch, \/* pitch required to sync to timecode signal *\/$/;"	m	struct:player	typeref:typename:double
+sync_to_timecode	player.c	/^static int sync_to_timecode(struct player *pl)$/;"	f	typeref:typename:int	file:
+table	lut.h	/^    slot_no_t *table, \/* hash -> slot lookup *\/$/;"	m	struct:lut	typeref:typename:slot_no_t *
+taps	timecoder.h	/^        taps; \/* central LFSR taps, excluding end taps *\/$/;"	m	struct:timecode_def	typeref:typename:bits_t
+target	selector.h	/^    struct record *target;$/;"	m	struct:selector	typeref:struct:record *
+target_position	player.h	/^        target_position, \/* seconds, or TARGET_UNKNOWN *\/$/;"	m	struct:player	typeref:typename:double
+tee	wichtig.py	/^def tee( befehl, logdatei, abschiedsgruss='default_abschiedsgruss_soll_nie_vorkommen' ):$/;"	f
+terminate	excrate.c	/^static void terminate(struct excrate *e)$/;"	f	typeref:typename:void	file:
+terminate	track.c	/^static void terminate(struct track *t)$/;"	f	typeref:typename:void	file:
+terminated	excrate.h	/^    bool terminated;$/;"	m	struct:excrate	typeref:typename:bool
+terminated	track.h	/^    bool terminated;$/;"	m	struct:track	typeref:typename:bool
+tests	Makefile	/^tests:		$(TESTS)$/;"	t
+tests	Makefile	/^tests:		CPPFLAGS += -I.$/;"	t
+tests/cues	Makefile	/^tests\/cues:	tests\/cues.o cues.o$/;"	t
+tests/external	Makefile	/^tests\/external:	tests\/external.o external.o$/;"	t
+tests/library	Makefile	/^tests\/library:	LDFLAGS += -pthread$/;"	t
+tests/library	Makefile	/^tests\/library:	tests\/library.o excrate.o external.o index.o library.o rig.o status.o thread.o /;"	t
+tests/midi	Makefile	/^tests\/midi:	LDLIBS += $(ALSA_LIBS)$/;"	t
+tests/midi	Makefile	/^tests\/midi:	tests\/midi.o midi.o$/;"	t
+tests/observer	Makefile	/^tests\/observer:	tests\/observer.o$/;"	t
+tests/status	Makefile	/^tests\/status:	tests\/status.o status.o$/;"	t
+tests/timecoder	Makefile	/^tests\/timecoder:	tests\/timecoder.o lut.o timecoder.o$/;"	t
+tests/track	Makefile	/^tests\/track:	LDFLAGS += -pthread$/;"	t
+tests/track	Makefile	/^tests\/track:	LDLIBS += -lm$/;"	t
+tests/track	Makefile	/^tests\/track:	tests\/track.o excrate.o external.o index.o library.o rig.o status.o thread.o trac/;"	t
+tests/ttf	Makefile	/^tests\/ttf:	LDLIBS += $(SDL_LIBS)$/;"	t
+tests/ttf.o	Makefile	/^tests\/ttf.o:	CFLAGS += $(SDL_CFLAGS)$/;"	t
+tests/ttf.o	Makefile	/^tests\/ttf.o:	tests\/ttf.c  # not needed except to workaround Make 3.81$/;"	t
+text_col	interface.c	/^    text_col = {224, 224, 224, 255},$/;"	v	typeref:typename:SDL_Color	file:
+thread_global_clear	thread.c	/^void thread_global_clear(void)$/;"	f	typeref:typename:void
+thread_global_init	thread.c	/^int thread_global_init(void)$/;"	f	typeref:typename:int
+thread_to_realtime	thread.c	/^void thread_to_realtime(void)$/;"	f	typeref:typename:void
+threshold	timecoder.h	/^    signed int threshold;$/;"	m	struct:timecoder	typeref:typename:signed int
+ticker	interface.c	/^static Uint32 ticker(Uint32 interval, void *p)$/;"	f	typeref:typename:Uint32	file:
+time_to_clock	interface.c	/^static void time_to_clock(char *buf, char *deci, int t)$/;"	f	typeref:typename:void	file:
+timecode	lut.h	/^    unsigned int timecode;$/;"	m	struct:slot	typeref:typename:unsigned int
+timecode	timecoder.h	/^        timecode; \/* corrected timecode *\/$/;"	m	struct:timecoder	typeref:typename:bits_t
+timecode	xwax.c	/^static struct timecode_def *timecode;$/;"	v	typeref:struct:timecode_def *	file:
+timecode_control	player.h	/^    bool timecode_control,$/;"	m	struct:player	typeref:typename:bool
+timecode_def	timecoder.h	/^struct timecode_def {$/;"	s
+timecode_ticker	timecoder.h	/^        timecode_ticker; \/* samples since valid timecode was read *\/$/;"	m	struct:timecoder	typeref:typename:unsigned int
+timecoder	deck.h	/^    struct timecoder timecoder;$/;"	m	struct:deck	typeref:struct:timecoder
+timecoder	device.h	/^    struct timecoder *timecoder;$/;"	m	struct:device	typeref:struct:timecoder *
+timecoder	player.h	/^    struct timecoder *timecoder;$/;"	m	struct:player	typeref:struct:timecoder *
+timecoder	timecoder.h	/^struct timecoder {$/;"	s
+timecoder_channel	timecoder.h	/^struct timecoder_channel {$/;"	s
+timecoder_clear	timecoder.c	/^void timecoder_clear(struct timecoder *tc)$/;"	f	typeref:typename:void
+timecoder_cycle_definition	timecoder.c	/^void timecoder_cycle_definition(struct timecoder *tc)$/;"	f	typeref:typename:void
+timecoder_find_definition	timecoder.c	/^struct timecode_def* timecoder_find_definition(const char *name)$/;"	f	typeref:struct:timecode_def *
+timecoder_free_lookup	timecoder.c	/^void timecoder_free_lookup(void) {$/;"	f	typeref:typename:void
+timecoder_get_definition	timecoder.h	/^static inline struct timecode_def* timecoder_get_definition(struct timecoder *tc)$/;"	f	typeref:struct:timecode_def *
+timecoder_get_pitch	timecoder.h	/^static inline double timecoder_get_pitch(struct timecoder *tc)$/;"	f	typeref:typename:double
+timecoder_get_position	timecoder.c	/^signed int timecoder_get_position(struct timecoder *tc, double *when)$/;"	f	typeref:typename:signed int
+timecoder_get_resolution	timecoder.h	/^static inline double timecoder_get_resolution(struct timecoder *tc)$/;"	f	typeref:typename:double
+timecoder_get_safe	timecoder.h	/^static inline unsigned int timecoder_get_safe(struct timecoder *tc)$/;"	f	typeref:typename:unsigned int
+timecoder_init	timecoder.c	/^void timecoder_init(struct timecoder *tc, struct timecode_def *def,$/;"	f	typeref:typename:void
+timecoder_monitor_clear	timecoder.c	/^void timecoder_monitor_clear(struct timecoder *tc)$/;"	f	typeref:typename:void
+timecoder_monitor_init	timecoder.c	/^int timecoder_monitor_init(struct timecoder *tc, int size)$/;"	f	typeref:typename:int
+timecoder_revs_per_sec	timecoder.h	/^static inline double timecoder_revs_per_sec(struct timecoder *tc)$/;"	f	typeref:typename:double
+timecoder_submit	timecoder.c	/^void timecoder_submit(struct timecoder *tc, signed short *pcm, size_t npcm)$/;"	f	typeref:typename:void
+timecodes	timecoder.c	/^static struct timecode_def timecodes[] = {$/;"	v	typeref:struct:timecode_def[]	file:
+title	index.h	/^    char *pathname, *artist, *title, *album, *genre; \/*Kenny: Added album and genre *\/$/;"	m	struct:record	typeref:typename:char ***
+toggle_back	selector.h	/^    int toggle_back, sort;$/;"	m	struct:selector	typeref:typename:int
+toggled	selector.h	/^    bool toggled;$/;"	m	struct:selector	typeref:typename:bool
+top_up	external.c	/^static ssize_t top_up(struct rb *rb, int fd)$/;"	f	typeref:typename:ssize_t	file:
+toread	crate_scan	/^        toread = fh2.read()$/;"	v
+track	player.h	/^    struct track *track;$/;"	m	struct:player	typeref:struct:track *
+track	track.h	/^struct track {$/;"	s
+track_acquire	track.c	/^void track_acquire(struct track *t)$/;"	f	typeref:typename:void
+track_acquire_by_import	track.c	/^struct track* track_acquire_by_import(const char *importer, const char *path)$/;"	f	typeref:struct:track *
+track_acquire_empty	track.c	/^struct track* track_acquire_empty(void)$/;"	f	typeref:struct:track *
+track_baseline	interface.c	/^static void track_baseline(const struct rect *rect, const TTF_Font *a,$/;"	f	typeref:typename:void	file:
+track_block	track.h	/^struct track_block {$/;"	s
+track_clear	track.c	/^static void track_clear(struct track *tr)$/;"	f	typeref:typename:void	file:
+track_get_again	track.c	/^static struct track* track_get_again(const char *importer, const char *path)$/;"	f	typeref:struct:track *	file:
+track_get_overview	track.h	/^static inline unsigned char track_get_overview(struct track *tr, int s)$/;"	f	typeref:typename:unsigned char
+track_get_ppm	track.h	/^static inline unsigned char track_get_ppm(struct track *tr, int s)$/;"	f	typeref:typename:unsigned char
+track_get_sample	track.h	/^static inline signed short* track_get_sample(struct track *tr, int s)$/;"	f	typeref:typename:signed short *
+track_handle	track.c	/^void track_handle(struct track *tr)$/;"	f	typeref:typename:void
+track_init	track.c	/^static int track_init(struct track *t, const char *importer, const char *path)$/;"	f	typeref:typename:int	file:
+track_is_importing	track.h	/^static inline bool track_is_importing(struct track *tr)$/;"	f	typeref:typename:bool
+track_pollfd	track.c	/^void track_pollfd(struct track *t, struct pollfd *pe)$/;"	f	typeref:typename:void
+track_release	track.c	/^void track_release(struct track *t)$/;"	f	typeref:typename:void
+track_use_mlock	track.c	/^void track_use_mlock(void)$/;"	f	typeref:typename:void
+tracks	rig.c	/^static struct list tracks = LIST_INIT(tracks),$/;"	v	typeref:struct:list	file:
+tracks	track.c	/^static struct list tracks = LIST_INIT(tracks);$/;"	v	typeref:struct:list	file:
+tracks	track.h	/^    struct list tracks;$/;"	m	struct:track	typeref:struct:list
+uninterleave	jack.c	/^static void uninterleave(jack_default_audio_sample_t *jbuf[],$/;"	f	typeref:typename:void	file:
+update_monitor	timecoder.c	/^static void update_monitor(struct timecoder *tc, signed int x, signed int y)$/;"	f	typeref:typename:void	file:
+usage	configure	/^usage()$/;"	f
+usage	crate_scan	/^usage = """$/;"	v
+usage	crate_scanner_vanilla	/^usage = """$/;"	v
+usage	exwax-pyalbumart	/^usage = """$/;"	v
+usage	xwax.c	/^static void usage(FILE *fd)$/;"	f	typeref:typename:void	file:
+use_mlock	track.c	/^static bool use_mlock = false;$/;"	v	typeref:typename:bool	file:
+utf	interface.c	/^static iconv_t utf;$/;"	v	typeref:typename:iconv_t	file:
+v	pitch.h	/^    double dt, x, v;$/;"	m	struct:pitch	typeref:typename:double
+valid_counter	timecoder.h	/^    unsigned int valid_counter, \/* number of successful error checks *\/$/;"	m	struct:timecoder	typeref:typename:unsigned int
+vext	external.c	/^static pid_t vext(int pp[2], const char *path, char *arg, va_list ap)$/;"	f	typeref:typename:pid_t	file:
+video_flags	interface.c	/^static Uint32 video_flags = SDL_RESIZABLE;$/;"	v	typeref:typename:Uint32	file:
+view_index	selector.h	/^        *view_index, \/* base_index + search filter applied *\/$/;"	m	struct:selector	typeref:struct:index *
+volume	player.h	/^        volume;$/;"	m	struct:player	typeref:typename:double
+w	layout.h	/^    pix_t x, y, w, h; \/* pixels *\/$/;"	m	struct:rect	typeref:typename:pix_t
+warn	wichtig.py	/^def warn( text ):$/;"	f
+warnung	crate_scanner_vanilla	/^warnung = '%(befehl)s: WARNUNG: '%locals()$/;"	v
+warnung	exwax-pyalbumart	/^warnung = '%(befehl)s: WARNUNG: '%locals()$/;"	v
+watch	observer.h	/^static inline void watch(struct observer *observer, struct event *sig,$/;"	f	typeref:typename:void
+watch_crate	selector.c	/^static void watch_crate(struct selector *s, struct crate *c)$/;"	f	typeref:typename:void	file:
+width	interface.c	/^static int width = DEFAULT_WIDTH, height = DEFAULT_HEIGHT,$/;"	v	typeref:typename:int	file:
+words	index.h	/^    char *words[32]; \/* NULL-terminated array *\/$/;"	m	struct:match	typeref:typename:char * [32]
+x	layout.h	/^    pix_t x, y, w, h; \/* pixels *\/$/;"	m	struct:rect	typeref:typename:pix_t
+x	pitch.h	/^    double dt, x, v;$/;"	m	struct:pitch	typeref:typename:double
+xwax	Makefile	/^xwax:		$(OBJS)$/;"	t
+xwax	Makefile	/^xwax:		LDFLAGS += -pthread$/;"	t
+xwax	Makefile	/^xwax:		LDLIBS += $(SDL_LIBS) $(DEVICE_LIBS) -lm$/;"	t
+xwax disclaimer:	README.md	/^## xwax disclaimer:$/;"	s
+xwax.o	Makefile	/^xwax.o:		.version$/;"	t
+xwax.o	Makefile	/^xwax.o:		CFLAGS += $(SDL_CFLAGS)$/;"	t
+xwax.o	Makefile	/^xwax.o:		CPPFLAGS += $(DEVICE_CPPFLAGS)$/;"	t
+xwax.o	Makefile	/^xwax.o:		CPPFLAGS += -DEXECDIR=\\"$(EXECDIR)\\" -DVERSION=\\"$(VERSION)\\"$/;"	t
+y	layout.h	/^    pix_t x, y, w, h; \/* pixels *\/$/;"	m	struct:rect	typeref:typename:pix_t
+zero	timecoder.h	/^    signed int zero;$/;"	m	struct:timecoder_channel	typeref:typename:signed int
+zero_alpha	timecoder.h	/^    double dt, zero_alpha;$/;"	m	struct:timecoder	typeref:typename:double
+zoom	interface.c	/^static int zoom(int d)$/;"	f	typeref:typename:int	file:
