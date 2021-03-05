@@ -1695,7 +1695,7 @@ static int handle_trackAdd(struct selector *sel){
         }
         if (endsWith(crate2Edit->path, ".xwaxpls"))
         {
-            fprintf(crateFile, "%s\t%s\t%s\t%s\t%s\t%f\n", crate2Edit->path, toAdd->artist, toAdd->title, toAdd->album, toAdd->genre, toAdd->bpm);
+            fprintf(crateFile, "%s\t%s\t%s\t%s\t%s\t%f\n", toAdd->path_name, toAdd->artist, toAdd->title, toAdd->album, toAdd->genre, toAdd->bpm);
         }else if (endsWith(crate2Edit->path, ".m3u")){
             fprintf(crateFile, "%s\n", relpath);    
         }
